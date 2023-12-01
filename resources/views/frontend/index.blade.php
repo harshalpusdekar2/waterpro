@@ -2,6 +2,8 @@
 
 @section('main-container')
 
+<!-- ddgfjh -->
+
     <div class="hero-slide owl-carousel site-blocks-cover">
       <div class="intro-section" style="background-image: url('{{url('frontend/images/terrace.jpeg')}}');;"> 
         <div class="container">
