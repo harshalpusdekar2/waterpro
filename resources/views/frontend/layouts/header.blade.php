@@ -8,7 +8,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Dancing+Script:400,700|Muli:300,400" rel="stylesheet">
   <link rel="stylesheet" href="{{url('frontend/fonts/icomoon/style.css')}}"/>
-
+  
   <link rel="stylesheet" href="{{url('frontend/css/bootstrap.min.css')}}"/>
   <link rel="stylesheet" href="{{url('frontend/css/jquery-ui.css')}}"/>
   <link rel="stylesheet" href="{{url('frontend/css/owl.carousel.min.css')}}"/>
@@ -26,6 +26,7 @@
 
   <link rel="stylesheet" href="{{url('frontend/css/style.css')}}"/>
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 </head>
