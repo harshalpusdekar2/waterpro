@@ -3,7 +3,7 @@
 @section('main-container')
 
     <div class="hero-slide owl-carousel site-blocks-cover">
-      <div class="intro-section" style="background-image: url('{{url('frontend/images/hero_1.jpg')}}');">
+      <div class="intro-section" style="background-image: url('{{url('frontend/images/terrace.jpeg')}}');;"> 
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-7 ml-auto text-right" data-aos="fade-up">
@@ -15,7 +15,7 @@
         </div>
       </div>
 
-      <div class="intro-section" style="background-image: url('{{url('frontend/images/hero_2.jpg')}}');;">
+      <div class="intro-section" style="background-image: url('{{url('frontend/images/terrace1.jpeg')}}');;">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-7 mx-auto text-center" data-aos="fade-up">
@@ -117,28 +117,31 @@
         </div>
       </div>
     </div>
-
+    <!-- SERVISES -->
     <div class="site-section bg-light">
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center">
-            <span class="text-serif text-primary">Destination</span>
-            <h3 class="heading-92913 text-black text-center">Our Destinations</h3>
+            <span class="text-serif text-primary">Services</span>
+            <h3 class="heading-92913 text-black text-center">Our Services</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-6 col-lg-4 mb-4">
+        <div class="row ">
+          <div class="col-md-6 col-lg-4 mb-4 ">
             <div class="service-39381">
               <img src="{{url('frontend/images/hero_1.jpg')}}" alt="Image" class="img-fluid">
               <div class="p-4">
-                <h3><a href="#"><span class="icon-room mr-1 text-primary"></span> Croatia &mdash; Columbia</a></h3>
-                <div class="d-flex">
+                <h3><a href="#"><span class=" mr-1 text-primary"></span> Waterproofing for Basements and Tunnels.</a></h3>
+                <div class="">
                   <div class="mr-auto">
-                    <span class="icon-date_range"></span>
-                    Sep. 05 &mdash; Oct. 15
+                 
+                  
+            <P> Welcome to Dhruvi Creation and Waterproofing, your trusted partner in comprehensive 
+             waterproofing solutions. Our specialized services extend to safeguarding the structural integrity of basements 
+             and tunnels, ensuring lasting protection against water ingress and potential damage</p>
                   </div>
-                  <div class="ml-auto price">
-                    <span class="bg-primary">$600</span>
+                  <div class=" text-right">
+                  <button type="button" class="btn btn-primary ">Read More</button>
                   </div>
                   
                 </div>
@@ -147,16 +150,19 @@
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="service-39381">
-              <img src="{{url('frontend/images/hero_2.jpg')}}" alt="Image" class="img-fluid">
+            
+              <img src="{{url('frontend/images/toilet.jpeg')}}" alt="Image" class="img-fluid">
               <div class="p-4">
-                <h3><a href="#"><span class="icon-room mr-1 text-primary"></span> Croatia &mdash; Columbia</a></h3>
-                <div class="d-flex">
+                <h3><a href="#"><span class=" mr-1 text-primary"></span> Toilet & Terrace Waterproofing Services.</a></h3>
+                <div class="">
                   <div class="mr-auto">
-                    <span class="icon-date_range"></span>
-                    Sep. 05 &mdash; Oct. 15
+                    
+                    <p>Welcome to Dhruvi Creation and Waterproofing, where we redefine waterproofing solutions for 
+                       your toilets and terraces. Our specialized services ensure not only the protection of these critical spaces but 
+                      also add value to your property through durable and effective waterproofing.</p>
                   </div>
-                  <div class="ml-auto price">
-                    <span class="bg-primary">$600</span>
+                  <div class="text-right">
+                  <button type="button" class="btn btn-primary">Read More</button>
                   </div>
                   
                 </div>
@@ -165,16 +171,18 @@
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="service-39381">
-              <img src="{{url('frontend/images/hero_1.jpg')}}" alt="Image" class="img-fluid">
+              <img src="{{url('frontend/images/root.jpeg')}}" alt="Image" class="img-fluid">
               <div class="p-4">
-                <h3><a href="#"><span class="icon-room mr-1 text-primary"></span> Croatia &mdash; Columbia</a></h3>
-                <div class="d-flex">
+                <h3><a href="#"><span class=" mr-1 text-primary"></span> Roof Insulation Works & Terrace Gardens Services.</a></h3>
+                <div class="">
                   <div class="mr-auto">
-                    <span class="icon-date_range"></span>
-                    Sep. 05 &mdash; Oct. 15
+                   
+                    <p>Welcome to Dhruvi Creation and Waterproofing, your partner in innovative solutions for roof 
+                     insulation works and terrace gardens. Elevate your living spaces with our expert services that combine energy 
+                     efficiency with the beauty of lush terrace gardens.</p>
                   </div>
-                  <div class="ml-auto price">
-                    <span class="bg-primary">$600</span>
+                  <div class="text-right">
+                  <button type="button" class="btn btn-primary">Read More</button>
                   </div>
                   
                 </div>
@@ -184,16 +192,19 @@
 
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="service-39381">
-              <img src="{{url('frontend/images/hero_2.jpg')}}" alt="Image" class="img-fluid">
+              <img src="{{url('frontend/images/structure.jpeg')}}" alt="Image" class="img-fluid">
               <div class="p-4">
-                <h3><a href="#"><span class="icon-room mr-1 text-primary"></span> Croatia &mdash; Columbia</a></h3>
-                <div class="d-flex">
+                <h3><a href="#"><span class=" mr-1 text-primary"></span> Structural Rehabilitation Work Services. </a></h3>
+                <div class="">
                   <div class="mr-auto">
-                    <span class="icon-date_range"></span>
-                    Sep. 05 &mdash; Oct. 15
+                   
+                    <p>Discover reliable and effective solutions for structural rehabilitation with Dhruvi Creation and 
+Waterproofing. Our expertise in structural restoration ensures the longevity and stability of buildings, bridges, 
+and other structures. Trust us to revitalize and strengthen your property with our specialized rehabilitation 
+services.</p>
                   </div>
-                  <div class="ml-auto price">
-                    <span class="bg-primary">$600</span>
+                  <div class="text-right">
+                  <button type="button" class="btn btn-primary">Read More</button>
                   </div>
                   
                 </div>
@@ -204,14 +215,17 @@
             <div class="service-39381">
               <img src="{{url('frontend/images/hero_1.jpg')}}" alt="Image" class="img-fluid">
               <div class="p-4">
-                <h3><a href="#"><span class="icon-room mr-1 text-primary"></span> Croatia &mdash; Columbia</a></h3>
-                <div class="d-flex">
+                <h3><a href="#"><span class=" mr-1 text-primary"></span> Swimming Tanks and Humidification Tanks Services.</a></h3>
+                <div class="">
                   <div class="mr-auto">
-                    <span class="icon-date_range"></span>
-                    Sep. 05 &mdash; Oct. 15
+                    
+                    <p> Welcome to Dhruvi Creation and Waterproofing, your trusted partner in providing specialized 
+solutions for swimming tanks and humidification tanks. Our expertise extends beyond standard waterproofing, 
+ensuring the durability, safety, and efficiency of these critical structures. Dive into excellence with our tailored 
+services.</p>
                   </div>
-                  <div class="ml-auto price">
-                    <span class="bg-primary">$600</span>
+                  <div class="text-right">
+                  <button type="button" class="btn btn-primary">Read More</button>
                   </div>
                   
                 </div>
@@ -220,27 +234,87 @@
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="service-39381">
-              <img src="{{url('frontend/images/hero_2.jpg')}}" alt="Image" class="img-fluid">
+              <img src="{{url('frontend/images/floor.jpeg')}}" alt="Image" class="img-fluid">
               <div class="p-4">
-                <h3><a href="#"><span class="icon-room mr-1 text-primary"></span> Croatia &mdash; Columbia</a></h3>
-                <div class="d-flex">
+                <h3><a href="#"><span class=" mr-1 text-primary"></span> Industrial RCC Containers Services.</a></h3>
+                <div class="">
                   <div class="mr-auto">
-                    <span class="icon-date_range"></span>
-                    Sep. 05 &mdash; Oct. 15
-                  </div>
-                  <div class="ml-auto price">
-                    <span class="bg-primary">$600</span>
-                  </div>
-                  
+                    
+                    <p> Explore cutting-edge solutions for industrial needs with Dhruvin Creation and Waterproofing. 
+Our expertise in Industrial RCC Containers ensures the strength, durability, and reliability required for diverse 
+industrial applications. Trust us to deliver excellence in the creation and maintenance of robust containers that 
+meet your specific requirements.</p>
+</div>
+                  <div class="text-right">
+                  <button type="button" class="btn btn-primary">Read More</button>
+                 
                 </div>
               </div>
             </div>
           </div>
-
-        </div>
-      </div>
+</div>
+    <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-39381">
+            <img src="{{url('frontend/images/road.jpeg')}}" alt="Image" class="img-fluid">
+              <div class="p-4">
+                <h3><a href="#"><span class=" mr-1 text-primary"></span> Other Special Treatment for Construction Joints Services.</a></h3>
+                <div class="">
+                  <div class="mr-auto">
+                    
+                    <p>Discover specialized solutions for construction joints with Dhruvi Creation and Waterproofing. Our 
+commitment to excellence extends to providing unique treatments for construction joints, ensuring the 
+longevity, integrity, and resilience of your structures. Explore our services tailored to meet the specific 
+challenges posed by construction joints.</p>
+                  </div>
+                  <div class="text-right">
+                  <button type="button" class="btn btn-primary">Read More</button>
+                  </div>
+              </div>
+             </div>  
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-39381">
+              <img src="{{url('frontend/images/root1.jpeg')}}" alt="Image" class="img-fluid">
+              <div class="p-4">
+                <h3><a href="#"><span class=" mr-1 text-primary"></span> Expansion Joint & Sealant Work, etc. Services.</a></h3>
+                <div class="">
+                  <div class="mr-auto">
+                    
+                    <p>Welcome to Dhruvi Creation and Waterproofing, your trusted partner for specialized solutions in 
+expansion joint and sealant work, among other services. Our commitment to excellence ensures the integrity 
+and longevity of structures through precise treatments and high-quality materials. Explore our comprehensive 
+range of services tailored to meet your specific needs.</p>
+                  </div>
+                  <div class="text-right">
+                  <button type="button" class="btn btn-primary">Read More</button>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
     </div>
-
+    <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-39381">
+            <img src="{{url('frontend/images/site.jpeg')}}" alt="Image" class="img-fluid">
+              <div class="p-4">
+                <h3><a href="#"><span class=" mr-1 text-primary"></span> Epoxy Grouting Work Services.</a></h3>
+                <div class="">
+                  <div class="mr-auto">
+                    
+                    <p> Discover the strength and precision of Epoxy Grouting Work with Dhruvi Creation and 
+Waterproofing. Our specialized services are designed to provide durable solutions for various applications, 
+ensuring stability, longevity, and aesthetic appeal. Explore the excellence of epoxy grouting with our expert 
+team.</p>
+                  </div>
+                  <div class="text-right">
+                  <button type="button" class="btn btn-primary">Read More</button>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
     <div class="site-section">
       <div class="container">
         <div class="row">
