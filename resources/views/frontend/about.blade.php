@@ -2,7 +2,7 @@
 
 @section('main-container')
 
-    <div class="intro-section" style="background-image: url('{{url('frontend/images/hero_2.jpg')}}');">
+    <div class="intro-section" style="background-image: url('{{url('frontend/images/tr2.jpeg')}}');">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-7 mx-auto text-center" data-aos="fade-up">
@@ -20,7 +20,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <img src="{{url('frontend/images/hero_2.jpg')}}" alt="Image" class="img-fluid">
+            <img src="{{url('frontend/images/tr3.jpeg')}}" alt="Image" class="img-fluid">
           </div>
           <div class="col-md-6">
             <span class="text-serif text-primary">About Us</span>
@@ -156,7 +156,7 @@
 
     
 
-    <div class="site-section bg-image overlay" style="background-image: url('{{url('frontend/images/hero_2.jpg')}}');">
+    <div class="site-section bg-image overlay" style="background-image: url('{{url('frontend/images/tr4.jpeg')}}');">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-7 text-center">

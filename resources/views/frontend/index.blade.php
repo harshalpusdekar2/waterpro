@@ -4,7 +4,7 @@
 
 
     <div class="hero-slide owl-carousel site-blocks-cover">
-      <div class="intro-section" style="background-image: url('{{url('frontend/images/terrace.jpeg')}}');;"> 
+      <div class="intro-section" style="background-image: url('{{url('frontend/images/tr3.jpeg')}}');;"> 
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-7 ml-auto text-right" data-aos="fade-up">
@@ -27,6 +27,17 @@
           </div>
         </div>
       </div>
+      <div class="intro-section" style="background-image: url('{{url('frontend/images/site.jpeg')}}');;">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-7 mx-auto text-center" data-aos="fade-up">
+              <h1>Enjoy The Ocean With Your Family</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, in distinctio nostrum laborum sed quisquam voluptate facilis non.</p>
+              <p><a href="#" class="btn btn-primary py-3 px-5">Read More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </div>
     <!-- END slider -->
@@ -35,7 +46,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <img src="{{url('frontend/images/hero_2.jpg')}}" alt="Image" class="img-fluid">
+            <img src="{{url('frontend/images/tr1.jpeg')}}" alt="Image" class="img-fluid">
           </div>
           <div class="col-md-6">
             <span class="text-serif text-primary">About Us</span>
@@ -82,7 +93,7 @@
       </div>
     </div>
 
-    <div class="site-section bg-image overlay" style="background-image: url('{{url('frontend/images/hero_1.jpg')}}');">
+    <div class="site-section bg-image overlay" style="background-image: url('{{url('frontend/images/tr4.jpeg')}}');">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -127,10 +138,10 @@
             <h3 class="heading-92913 text-black text-center">Our Services</h3>
           </div>
         </div>
-        <div class="row ">
-          <div class="col-md-6 col-lg-4 mb-4 ">
+        <div class="row  ">
+          <div class="col-md-6 col-lg-4 mb-4">
             <div class="service-39381">
-              <img src="{{url('frontend/images/hero_1.jpg')}}" alt="Image" class="img-fluid">
+              <img src="{{url('frontend/images/floor3.jpeg')}}" alt="Image"   class="img-fluid">
               <div class="p-4">
                 <h3><a href="#"><span class=" mr-1 text-primary"></span> Waterproofing for Basements and Tunnels.</a></h3>
                 <div class="">
@@ -152,7 +163,7 @@
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="service-39381">
             
-              <img src="{{url('frontend/images/toilet.jpeg')}}" alt="Image" class="img-fluid">
+              <img src="{{url('frontend/images/toilet.jpeg')}}" alt="Image"   class="img-fluid ">
               <div class="p-4">
                 <h3><a href="#"><span class=" mr-1 text-primary"></span> Toilet & Terrace Waterproofing Services.</a></h3>
                 <div class="">
@@ -170,9 +181,9 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 mb-4">
+          <div class="col-md-6 col-lg-4 mb-4 " >
             <div class="service-39381">
-              <img src="{{url('frontend/images/root.jpeg')}}" alt="Image" class="img-fluid">
+              <img src="{{url('frontend/images/root.jpeg')}}" alt="Image"   class="img-fluid">
               <div class="p-4">
                 <h3><a href="#"><span class=" mr-1 text-primary"></span> Roof Insulation Works & Terrace Gardens Services.</a></h3>
                 <div class="">
@@ -193,7 +204,7 @@
 
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="service-39381">
-              <img src="{{url('frontend/images/structure.jpeg')}}" alt="Image" class="img-fluid">
+              <img src="{{url('frontend/images/site.jpeg')}}" alt="Image"  class="img-fluid">
               <div class="p-4">
                 <h3><a href="#"><span class=" mr-1 text-primary"></span> Structural Rehabilitation Work Services. </a></h3>
                 <div class="">
@@ -214,7 +225,7 @@ services.</p>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="service-39381">
-              <img src="{{url('frontend/images/hero_1.jpg')}}" alt="Image" class="img-fluid">
+              <img src="{{url('frontend/images/floor1.jpeg')}}" alt="Image"  class="img-fluid">
               <div class="p-4">
                 <h3><a href="#"><span class=" mr-1 text-primary"></span> Swimming Tanks and Humidification Tanks Services.</a></h3>
                 <div class="">
@@ -235,7 +246,7 @@ services.</p>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="service-39381">
-              <img src="{{url('frontend/images/floor.jpeg')}}" alt="Image" class="img-fluid">
+              <img src="{{url('frontend/images/floor3.jpeg')}}" alt="Image" class="img-fluid">
               <div class="p-4">
                 <h3><a href="#"><span class=" mr-1 text-primary"></span> Industrial RCC Containers Services.</a></h3>
                 <div class="">
@@ -256,7 +267,7 @@ meet your specific requirements.</p>
 </div>
     <div class="col-md-6 col-lg-4 mb-4">
             <div class="service-39381">
-            <img src="{{url('frontend/images/road.jpeg')}}" alt="Image" class="img-fluid">
+            <img src="{{url('frontend/images/road.jpeg')}}" alt="Image"  class="img-fluid">
               <div class="p-4">
                 <h3><a href="#"><span class=" mr-1 text-primary"></span> Other Special Treatment for Construction Joints Services.</a></h3>
                 <div class="">
@@ -276,7 +287,7 @@ challenges posed by construction joints.</p>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="service-39381">
-              <img src="{{url('frontend/images/root1.jpeg')}}" alt="Image" class="img-fluid">
+              <img src="{{url('frontend/images/floor.jpeg')}}" alt="Image"  class="img-fluid">
               <div class="p-4">
                 <h3><a href="#"><span class=" mr-1 text-primary"></span> Expansion Joint & Sealant Work, etc. Services.</a></h3>
                 <div class="">
@@ -297,7 +308,7 @@ range of services tailored to meet your specific needs.</p>
     </div>
     <div class="col-md-6 col-lg-4 mb-4">
             <div class="service-39381">
-            <img src="{{url('frontend/images/site.jpeg')}}" alt="Image" class="img-fluid">
+            <img src="{{url('frontend/images/site.jpeg')}}" alt="Image"   class="img-fluid">
               <div class="p-4">
                 <h3><a href="#"><span class=" mr-1 text-primary"></span> Epoxy Grouting Work Services.</a></h3>
                 <div class="">
@@ -320,7 +331,7 @@ team.</p>
       <div class="container">
         <div class="row">
           <div class="col-md-7">
-            <p><img src="{{url('frontend/images/hero_1.jpg')}}" alt="Image" class="img-fluid"></p>
+            <p><img src="{{url('frontend/images/tr2.jpeg')}}" alt="Image" class="img-fluid"></p>
           </div>
           <div class="col-md-5">
             <span class="text-serif text-primary">Book Now</span>
@@ -524,7 +535,7 @@ team.</p>
       </div>
     </div>
 
-    <div class="site-section bg-image overlay" style="background-image: url('{{url('frontend/images/hero_2.jpg')}}');">
+    <div class="site-section bg-image overlay" style="background-image: url('{{url('frontend/images/tr3.jpeg')}}');">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-7 text-center">
