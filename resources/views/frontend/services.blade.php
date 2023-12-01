@@ -1,6 +1,12 @@
 @extends('frontend.layouts.main')
 
 @section('main-container')
+    <style>
+        .wrap-icon-39293 img {
+            height: 12rem;
+            width: 100%;
+        }
+    </style>
     <div class="site-section">
         <div class="container">
             <div class="row justify-content-center my-5">
@@ -33,7 +39,7 @@
                 <div class="row mt-5">
                     <div class="col-md-6">
                         {{-- <span class="text-serif text-primary">About Us</span> --}}
-                        <h3 class="heading-9291377 text-black text-right">Basement Waterproofing</h3>
+                        <h3 class="heading-92913 text-black ">Basement Waterproofing</h3>
                         <p>Discover unrivalled basement waterproofing solutions tailored to meet the unique challenges of
                             your property.
                             We understand the importance of a dry and secure basement, and our expert team employs
@@ -81,7 +87,7 @@
                 <div class="row mt-5">
                     <div class="col-md-6">
                         {{-- <span class="text-serif text-primary">About Us</span> --}}
-                        <h3 class="heading-9291377 text-black text-right">Terrace Waterproofing</h3>
+                        <h3 class="heading-92913 text-black">Terrace Waterproofing</h3>
                         <p>Elevate your outdoor spaces with our terrace waterproofing expertise. Terraces are exposed to the
                             elements,
                             making them susceptible to water damage. Our comprehensive terrace waterproofing solutions
@@ -130,7 +136,7 @@
                 <div class="row mt-5">
                     <div class="col-md-6">
                         {{-- <span class="text-serif text-primary">About Us</span> --}}
-                        <h3 class="heading-9291377 text-black text-right">Terrace Gardens</h3>
+                        <h3 class="heading-92913 text-black">Terrace Gardens</h3>
                         <p>Transform your rooftop into a vibrant oasis with our terrace garden services. We understand the
                             value of green
                             spaces in urban living, and our team excels in creating beautiful and functional terrace
@@ -146,60 +152,75 @@
             </div>
         </div>
 
-        <div class="container">
+        <div class="container" style="background-color: whitesmoke">
             <div class="row justify-content-center mt-5">
                 <div class="col-md-7 text-center">
                     <span class="text-serif text-primary">Waterproofing</span>
-                    <h3 class="heading-92913 text-black text-center">Roof Insulation Works & Terrace Gardens Services. . . .
+                    <h3 class="heading-92913 text-black text-center"> Structural Rehabilitation Work Services . . . .
                     </h3>
                 </div>
-                <p>Welcome to Dhruvi Creation and Waterproofing, your
-                    partner in innovative solutions for roof
-                    insulation works and terrace gardens. Elevate your living spaces with our expert services that combine
-                    energy
-                    efficiency with the beauty of lush terrace gardens.</p>
+                <div class="row">
+                    <div class="col-6">
+                        <h5 class="text-dark">Information:</h5>
+                        <p>Discover reliable and effective solutions for structural rehabilitation with Dhruvi Creation and
+                            Waterproofing. Our expertise in structural restoration ensures the longevity and stability of
+                            buildings, bridges,
+                            and other structures. Trust us to revitalize and strengthen your property with our specialized
+                            rehabilitation
+                            services</p>
+                    </div>
+                    <div class="col-6">
+                        <h5 class="text-dark">Our Approach to Structural Rehabilitation:</h5>
+                        <p>At Dhruvi Creation and Waterproofing, we take a comprehensive approach to structural
+                            rehabilitation,
+                            addressing issues such as:
+                        </p>
+                    </div>
+                </div>
                 <div class="py-5">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="service-29283">
                                     <span class="wrap-icon-39293">
-                                        <span class="flaticon-yacht"></span>
+                                        <img src="{{ url('frontend/images/Concrete_degradation.png') }}" alt="">
                                     </span>
-                                    <h3>Luxuries Yacht</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ipsa, ad
-                                        ratione quos distinctio unde.</p>
+                                    <h3>Concrete Degradation:</h3>
+                                    <p> Repair and strengthen concrete structures affected by corrosion, spalling, and other
+                                        forms of deterioration.</p>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="service-29283">
                                     <span class="wrap-icon-39293">
-                                        <span class="flaticon-shield"></span>
+                                        <img src="{{ url('frontend/images/Crack_rehabilitation.jpg') }}" alt="">
                                     </span>
-                                    <h3>30 Years of Experience</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ipsa, ad
-                                        ratione quos distinctio unde.</p>
+                                    <h3>Crack Rehabilitation:</h3>
+                                    <p>Expert assessment and repair of cracks in buildings or infrastructure, ensuring
+                                        structural
+                                        integrity and preventing further damage.</p>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="service-29283">
                                     <span class="wrap-icon-39293">
-                                        <span class="flaticon-captain"></span>
+                                        <img src="{{ url('frontend/images/Foundation_stabilization.jpg') }}" alt="">
                                     </span>
-                                    <h3>Good Captain</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ipsa, ad
-                                        ratione quos distinctio unde.</p>
+                                    <h3>Foundation Stabilization:</h3>
+                                    <p> Implement solutions to stabilize and reinforce foundations, preventing settlement
+                                        and improving overall structural stability.</p>
                                 </div>
                             </div>
 
                             <div class="col-md-3">
                                 <div class="service-29283">
                                     <span class="wrap-icon-39293">
-                                        <span class="flaticon-devices"></span>
+                                        <img src="{{ url('frontend/images/Seismic_retrofitting.jpeg') }}" alt="">
                                     </span>
-                                    <h3>Luxuries Yacht</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ipsa, ad
-                                        ratione quos distinctio unde.</p>
+                                    <h3>Seismic Retrofitting:</h3>
+                                    <p> Strengthen structures to withstand seismic activity, ensuring the safety and
+                                        resilience of
+                                        buildings in earthquake-prone regions.</p>
                                 </div>
                             </div>
                         </div>
@@ -207,5 +228,76 @@
                 </div>
             </div>
         </div>
+        <div class="container" >
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-7 text-center">
+                    <span class="text-serif text-primary">Waterproofing</span>
+                    <h3 class="heading-92913 text-black text-center"> Swimming Tanks and Humidification Tanks Services. . . . .
+                    </h3>
+                </div>
+                        
+                        <p> Welcome to Dhruvi Creation and Waterproofing, your trusted partner in providing specialized 
+                            solutions for swimming tanks and humidification tanks. Our expertise extends beyond standard waterproofing, 
+                            ensuring the durability, safety, and efficiency of these critical structures. Dive into excellence with our tailored 
+                            services.</p>
+                <div class="py-5">
+                    <div class="container">
+                        <div class="row">
+                            <h4>Swimming Tanks Services :</h4>
+                            <p>Make a splash with our dedicated swimming tank services. We understand the unique challenges posed by 
+                                pool environments, and our team is equipped to provide comprehensive solutions, including:</p>
+                            {{-- <div class=""> --}}
+                                <div class="col-md-3 service-29283">
+                                    <span class="wrap-icon-39293">
+                                        <img src="{{ url('frontend/images/Concrete_degradation.png') }}" alt="">
+                                    </span>
+                                    <h3>Concrete Degradation:</h3>
+                                    <p> Repair and strengthen concrete structures affected by corrosion, spalling, and other
+                                        forms of deterioration.</p>
+                                </div>
+                            {{-- </div> --}}
+                            {{-- <div class=""> --}}
+                                <div class="col-md-3 service-29283">
+                                    <span class="wrap-icon-39293">
+                                        <img src="{{ url('frontend/images/Crack_rehabilitation.jpg') }}" alt="">
+                                    </span>
+                                    <h3>Crack Rehabilitation:</h3>
+                                    <p>Expert assessment and repair of cracks in buildings or infrastructure, ensuring
+                                        structural
+                                        integrity and preventing further damage.</p>
+                                </div>
+                            {{-- </div> --}}
+                            {{-- <div class=""> --}}
+                                <div class="service-29283 col-md-3">
+                                    <span class="wrap-icon-39293">
+                                        <img src="{{ url('frontend/images/Foundation_stabilization.jpg') }}" alt="">
+                                    </span>
+                                    <h3>Foundation Stabilization:</h3>
+                                    <p> Implement solutions to stabilize and reinforce foundations, preventing settlement
+                                        and improving overall structural stability.</p>
+                                </div>
+                            {{-- </div> --}}
+
+                            {{-- <div class=""> --}}
+                                <div class="service-29283 col-md-3">
+                                    <span class="wrap-icon-39293">
+                                        <img src="{{ url('frontend/images/Seismic_retrofitting.jpeg') }}" alt="">
+                                    </span>
+                                    <h3>Seismic Retrofitting:</h3>
+                                    <p> Strengthen structures to withstand seismic activity, ensuring the safety and
+                                        resilience of
+                                        buildings in earthquake-prone regions.</p>
+                                </div>
+                            {{-- </div> --}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
     </div>
 @endsection
