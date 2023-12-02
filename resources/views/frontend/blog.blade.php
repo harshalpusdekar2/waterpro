@@ -1,7 +1,9 @@
 @extends('frontend.layouts.main')    
 
 @section('main-container')
+
 <style>
+
     .gallery {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));

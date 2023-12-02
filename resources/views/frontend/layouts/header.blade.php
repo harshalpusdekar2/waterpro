@@ -122,10 +122,11 @@
                 <li>
                     <a href="{{url('/testimonials')}}" class="nav-link text-left">Testimonials</a>
                 </li>
-                 <li><a href= "{{url('/blog')}}" class="nav-link text-left">Blog</a></li>              
+                 <li><a href= "{{url('/blog')}}" class="nav-link text-left">Gallery</a></li>              
                 <li>
                     <a href="{{url('/contact')}}" class="nav-link text-left">Contact</a>
-                  </li>
+                  </li>            
+                
               </ul>                                                                                                                                                                                                                                                                                          </ul>
             </nav>
 

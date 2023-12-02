@@ -1,12 +1,7 @@
 @extends('frontend.layouts.main')
 
 @section('main-container')
-    <style>
-        .wrap-icon-39293 img {
-            height: 12rem;
-            width: 100%;
-        }
-    </style>
+    
     <div class="site-section">
 
         {{-- ---------------------------- For Basements and Tunnels ------------------------------- --}}
