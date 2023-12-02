@@ -62,8 +62,8 @@
                 <span class="icon-location-arrow text-primary"></span>
               </div>
               <div class="text">
-                <span class="h4 d-block">San Francisco</span>
-                <span class="caption-text">Mountain View, Fake st., CA</span>
+                <span class="h4 d-block">Chandramani Nagar, Nagpur</span>
+                <span class="caption-text">Pt No-08, Sreett No-7L</span>
               </div>
             </div>
 
