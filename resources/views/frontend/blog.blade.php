@@ -165,15 +165,51 @@ function closeModal() {
 
 
 <div class="gallery">
-<div class="video-item" onclick="openModal('{{url('frontend/videos/Video1.mp4')}}')">
+<div class="video-item" onclick="openModal('{{url('frontend/videos/v1.mp4')}}')">
     <video controls>
-        <source src="{{url('frontend/videos/Video1.mp4')}}" type="video/mp4">
+        <source src="{{url('frontend/videos/v1.mp4')}}" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </div>
-<div class="video-item" onclick="openModal('{{url('frontend/videos/Video1.mp4')}}')">
+<div class="video-item" onclick="openModal('{{url('frontend/videos/v2.mp4')}}')">
     <video controls>
-        <source src="{{url('frontend/videos/Video1.mp4')}}" type="video/mp4">
+        <source src="{{url('frontend/videos/v2.mp4')}}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div class="video-item" onclick="openModal('{{url('frontend/videos/v3.mp4')}}')">
+    <video controls>
+        <source src="{{url('frontend/videos/v3.mp4')}}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div class="video-item" onclick="openModal('{{url('frontend/videos/v4.mp4')}}')">
+    <video controls>
+        <source src="{{url('frontend/videos/v4.mp4')}}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div class="video-item" onclick="openModal('{{url('frontend/videos/v9.mp4')}}')">
+    <video controls>
+        <source src="{{url('frontend/videos/v9.mp4')}}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div class="video-item" onclick="openModal('{{url('frontend/videos/v6.mp4')}}')">
+    <video controls>
+        <source src="{{url('frontend/videos/v6.mp4')}}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div class="video-item" onclick="openModal('{{url('frontend/videos/v7.mp4')}}')">
+    <video controls>
+        <source src="{{url('frontend/videos/v7.mp4')}}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div class="video-item" onclick="openModal('{{url('frontend/videos/v8.mp4')}}')">
+    <video controls>
+        <source src="{{url('frontend/videos/v8.mp4')}}" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </div>
