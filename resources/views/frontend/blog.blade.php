@@ -1,103 +1,202 @@
 @extends('frontend.layouts.main')    
 
 @section('main-container')
-    
+<style>
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 36px;
+        padding: 16px;
+    }
 
-      <div class="intro-section" style="background-image: url('images/hero_2.jpg');">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-7 mx-auto text-center" data-aos="fade-up">
-              <h1>Blog Posts</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, in distinctio nostrum laborum sed quisquam voluptate facilis non.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+    .gallery img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+    }
 
-    
-    <div class="site-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
-                    <div class="blog-entry">
-                    <a href="blog-single.html" class="img-link">
-                        <img src="images/hero_1.jpg" alt="Image" class="img-fluid">
-                    </a>
-                    <div class="blog-entry-contents">
-                        <h3><a href="#">Consectetur Adipisicing Elit Expedita Beatea</a></h3>
-                        <div class="meta">Posted by <a href="#">Admin</a> In <a href="#">News</a></div>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
-                    <div class="blog-entry">
-                    <a href="blog-single.html" class="img-link">
-                        <img src="images/hero_1.jpg" alt="Image" class="img-fluid">
-                    </a>
-                    <div class="blog-entry-contents">
-                        <h3><a href="#">Consectetur Adipisicing Elit Expedita Beatea</a></h3>
-                        <div class="meta">Posted by <a href="#">Admin</a> In <a href="#">News</a></div>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
-                    <div class="blog-entry">
-                    <a href="blog-single.html" class="img-link">
-                        <img src="images/hero_1.jpg" alt="Image" class="img-fluid">
-                    </a>
-                    <div class="blog-entry-contents">
-                        <h3><a href="#">Consectetur Adipisicing Elit Expedita Beatea</a></h3>
-                        <div class="meta">Posted by <a href="#">Admin</a> In <a href="#">News</a></div>
-                    </div>
-                    </div>
-                </div>
+    .gallery img:hover {
+        transform: scale(1.1);
+    }
 
-                <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
-                    <div class="blog-entry">
-                    <a href="blog-single.html" class="img-link">
-                        <img src="images/hero_1.jpg" alt="Image" class="img-fluid">
-                    </a>
-                    <div class="blog-entry-contents">
-                        <h3><a href="#">Consectetur Adipisicing Elit Expedita Beatea</a></h3>
-                        <div class="meta">Posted by <a href="#">Admin</a> In <a href="#">News</a></div>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
-                    <div class="blog-entry">
-                    <a href="blog-single.html" class="img-link">
-                        <img src="images/hero_1.jpg" alt="Image" class="img-fluid">
-                    </a>
-                    <div class="blog-entry-contents">
-                        <h3><a href="#">Consectetur Adipisicing Elit Expedita Beatea</a></h3>
-                        <div class="meta">Posted by <a href="#">Admin</a> In <a href="#">News</a></div>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-5 mb-lg-5 col-lg-4">
-                    <div class="blog-entry">
-                    <a href="blog-single.html" class="img-link">
-                        <img src="images/hero_1.jpg" alt="Image" class="img-fluid">
-                    </a>
-                    <div class="blog-entry-contents">
-                        <h3><a href="#">Consectetur Adipisicing Elit Expedita Beatea</a></h3>
-                        <div class="meta">Posted by <a href="#">Admin</a> In <a href="#">News</a></div>
-                    </div>
-                    </div>
-                </div>
-                
-            </div>
+    /* Modal Styles */
+    .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        justify-content: center;
+        align-items: center;
+    }
 
-            <div class="row text-center mt-5">
-                <div class="col-12">
-                    <a href="#" class="p-3 d-inline-block">1</a>
-                    <a href="#" class="p-3 d-inline-block">2</a>
-                    <span class="p-3 d-inline-block text-black">3</span>
-                    <a href="#" class="p-3 d-inline-block">4</a>
-                    <a href="#" class="p-3 d-inline-block">5</a>
-                </div>
-            </div>
-        </div>
+    .modal img {
+        max-width: 80%;
+        max-height: 80%;
+        border-radius: 8px;
+    }
+
+    .close {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+    }
+</style>
+
+<h1 class="text-dark text-center m-5 pt-5 ">IMAGE GALLERY </h1>
+<div class="gallery" id="imageGallery">
+<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 1" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
+<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 2" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
+<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 3" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
+<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 4" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
+<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 5" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
+<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 6" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
+<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 7" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
+<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 8" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
+<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 9" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
+<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 10" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
+<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 11" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
+<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 12" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
+</div>
+
+<div class="modal" id="myModal">
+<span class="close" onclick="closeModal()">&times;</span>
+<img src="" alt="Modal Image" id="modalImage">
+</div>
+
+<script>
+function openModal(imagePath) {
+    document.getElementById('myModal').style.display = 'flex';
+    document.getElementById('modalImage').src = imagePath;
+}
+
+function closeModal() {
+    document.getElementById('myModal').style.display = 'none';
+}
+</script>
+
+
+
+
+
+
+
+    {{-- <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+
+        .video-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 16px;
+            padding: 16px;
+        }
+
+        .video-container {
+            position: relative;
+            cursor: pointer;
+        }
+
+        .video-thumbnail {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60px;
+            height: 60px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border: none;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .video-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .video-modal video {
+            max-width: 80%;
+            max-height: 80%;
+            border-radius: 8px;
+        }
+
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            color: #fff;
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
+
+<div class="video-gallery" id="videoGallery">
+    <div class="video-container" onclick="playVideo('video1.mp4')">
+        <img src="thumbnail1.jpg" alt="Video 1" class="video-thumbnail">
+        <button class="play-button">&#9654;</button>
     </div>
+    <div class="video-container" onclick="playVideo('video2.mp4')">
+        <img src="thumbnail2.jpg" alt="Video 2" class="video-thumbnail">
+        <button class="play-button">&#9654;</button>
+    </div>
+    <!-- Add more videos as needed -->
+</div>
 
+<div class="video-modal" id="videoModal">
+    <span class="close" onclick="closeVideoModal()">&times;</span>
+    <video controls autoplay id="modalVideo">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+<script>
+    function playVideo(videoPath) {
+        document.getElementById('videoModal').style.display = 'flex';
+        document.getElementById('modalVideo').src = videoPath;
+    }
+
+    function closeVideoModal() {
+        document.getElementById('videoModal').style.display = 'none';
+        document.getElementById('modalVideo').pause();
+    }
+</script> --}}
+
+
+
+
+
+
+
+  
 @endsection
