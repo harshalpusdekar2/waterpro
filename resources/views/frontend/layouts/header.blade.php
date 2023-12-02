@@ -74,7 +74,7 @@
                 <span class="icon-phone text-primary"></span>
               </div>
               <div class="text">
-                <span class="h4 d-block">000 209 392 312</span>
+                <span class="h4 d-block">9370-42-9705</span>
                 <span class="caption-text">Toll free</span>
               </div>
             </div>
@@ -86,8 +86,8 @@
                 <span class="icon-envelope text-primary"></span>
               </div>
               <div class="text">
-                <span class="h4 d-block">info@gmail.com</span>
-                <span class="caption-text">Gournadi, 1230 Bariasl</span>
+                <span class="h4 d-block">walchetwar.rw@gmail.com</span>
+                <span class="caption-text">Feel Free To Mail</span>
               </div>
             </div>
           </div>

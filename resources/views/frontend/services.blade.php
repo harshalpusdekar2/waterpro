@@ -6,9 +6,9 @@
 
         {{-- ---------------------------- For Basements and Tunnels ------------------------------- --}}
 
-        <div class="container">
+        <div class="container" id="basement-tunnel">
             <div class="row justify-content-center my-5">
-                <div class="col-md-7 text-center">
+                <div class="col-md-7 text-center" >
                     <span class="text-serif text-primary">Waterproofing</span>
                     <h3 class="heading-92913 text-black text-center">For Basements and Tunnels . . .</h3>
                 </div>
@@ -56,7 +56,7 @@
 
         {{-- ---------------------------- For Toilet & Terrace ------------------------------- --}}
 
-        <div class="container" style="background:whitesmoke ">
+        <div class="container" style="background:whitesmoke" id="toilet-terrace">
             <div class="row justify-content-center my-5">
                 <div class="col-md-7 text-center">
                     <span class="text-serif text-primary">Waterproofing</span>
@@ -106,7 +106,7 @@
 
         {{-- ---------------------------- Roof Insulation Works & Terrace Gardens Services ------------------------------- --}}
 
-        <div class="container">
+        <div class="container" id="roof-insulation">
             <div class="row justify-content-center my-5">
                 <div class="col-md-7 text-center">
                     <span class="text-serif text-primary">Waterproofing</span>
@@ -157,7 +157,7 @@
 
         {{-- ----------------------------  Structural Rehabilitation Work Services ------------------------------- --}}
 
-        <div class="container" style="background-color: whitesmoke">
+        <div class="container" style="background-color: whitesmoke" id="structural-rehabilitation">
             <div class="row justify-content-center mt-5">
                 <div class="col-md-7 text-center">
                     <span class="text-serif text-primary">Waterproofing</span>
@@ -237,7 +237,7 @@
         {{-- ---------------------------- Swimming Tanks and Humidification Tanks Services -------------------------------- --}}
 
 
-        <div class="container">
+        <div class="container" id="swimming-tanks">
             <div class="row justify-content-center mt-5">
                 <div class="col-md-7 text-center">
                     <span class="text-serif text-primary">Waterproofing</span>
@@ -328,7 +328,7 @@
 
         {{-- ----------------------------------- Industrial RCC Containers Services -------------------------------- --}}
 
-        <div class="container" style="background: whitesmoke ">
+        <div class="container" style="background: whitesmoke " id="industrial-RCC">
             <div class="row justify-content-center mt-5">
                 <div class="col-md-7 text-center">
                     <span class="text-serif text-primary">Waterproofing</span>
@@ -413,7 +413,7 @@
 
         {{-- ----------------------------------- Other Special Treatment for Construction Joints Services -------------------------------- --}}
 
-        <div class="container">
+        <div class="container" id="other-special">
             <div class="row justify-content-center mt-5">
                 <div class="col-md-7 text-center">
                     <span class="text-serif text-primary">Waterproofing</span>
@@ -499,7 +499,7 @@
 
         {{-- -------------------------------------  Expansion Joint & Sealant Work, etc. Services ----------------------------- --}}
 
-        <div class="container" style="background: whitesmoke">
+        <div class="container" style="background: whitesmoke" id="expansion-joint">
             <div class="row justify-content-center mt-5">
                 <div class="col-md-7 text-center">
                     <span class="text-serif text-primary">Waterproofing</span>
@@ -618,7 +618,7 @@
 
         {{-- ----------------------------------- Epoxy Grouting Work Services -------------------------------- --}}
 
-        <div class="container">
+        <div class="container" id="epoxy-grouting">
             <div class="row justify-content-center mt-5">
                 <div class="col-md-7 text-center">
                     <span class="text-serif text-primary">Waterproofing</span>

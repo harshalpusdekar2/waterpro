@@ -338,3 +338,23 @@ jQuery(document).ready(function($) {
 	});
 
 });
+
+
+// Gallery Javascript
+
+        function openModal(imagePath) {
+            document.getElementById('myModal').style.display = 'flex';
+            document.getElementById('modalImage').src = imagePath;
+        }
+
+        function closeModal() {
+            document.getElementById('myModal').style.display = 'none';
+        }
+        function closeModal1() {
+            document.getElementById('videoModal').style.display = 'none';
+        }
+        function openModal1(videoSrc) {
+            document.getElementById('modalVideo').src = videoSrc;
+            document.getElementById('videoModal').style.display = 'flex';
+        }
+   

@@ -34,7 +34,7 @@
     </div>
 
     
-    <div class="site-section bg-image overlay" style="background-image: url('{{url('frontend/images/hero_1.jpg')}}');">
+    {{-- <div class="site-section bg-image overlay" style="background-image: url('{{url('frontend/images/hero_1.jpg')}}');">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -69,11 +69,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
 
     
 
-    <div class="site-section">
+    {{-- <div class="site-section">
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center">
@@ -152,7 +152,7 @@
 
         </div>
       </div>
-    </div>
+    </div> --}}
 
     
 
@@ -162,7 +162,7 @@
           <div class="col-md-7 text-center">
             <h2 class="text-white">Get In Touch With Us</h2>
             <p class="lead text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <p class="mb-0"><a href="#" class="btn btn-warning py-3 px-5 text-white">Contact Us</a></p>
+            <p class="mb-0"><a href="{{url('/contact')}}" class="btn btn-warning py-3 px-5 text-white">Contact Us</a></p>
           </div>
         </div>
       </div>

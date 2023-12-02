@@ -153,7 +153,7 @@
              and tunnels, ensuring lasting protection against water ingress and potential damage</p>
                   </div>
                   <div class=" text-right ">
-                  <button type="button" class="btn btn-primary ">Read More</button>
+                  <a href="{{url('/services')}}#basement-tunnel" class="btn btn-primary ">Read More</a>
                   </div>
                   
                 </div>
@@ -174,7 +174,7 @@
                       also add value to your property through durable and effective waterproofing.</p>
                   </div>
                   <div class="text-right">
-                  <button type="button" class="btn btn-primary">Read More</button>
+                    <a href="{{url('/services')}}#toilet-terrace" class="btn btn-primary ">Read More</a>
                   </div>
                   
                 </div>
@@ -194,7 +194,7 @@
                      efficiency with the beauty of lush terrace gardens.</p>
                   </div>
                   <div class="text-right ">
-                  <button type="button" class="btn btn-primary">Read More</button>
+                    <a href="{{url('/services')}}#roof-insulation" class="btn btn-primary ">Read More</a>
                   </div>
                   
                 </div>
@@ -216,7 +216,7 @@ and other structures. Trust us to revitalize and strengthen your property with o
 services.</p>
                   </div>
                   <div class="text-right">
-                  <button type="button" class="btn btn-primary">Read More</button>
+                    <a href="{{url('/services')}}#structural-rehabilitation" class="btn btn-primary ">Read More</a>
                   </div>
                   
                 </div>
@@ -237,7 +237,8 @@ ensuring the durability, safety, and efficiency of these critical structures. Di
 services.</p>
                   </div>
                   <div class="text-right">
-                  <button type="button" class="btn btn-primary">Read More</button>
+                    
+                    <a href="{{url('/services')}}#swimming-tanks" class="btn btn-primary ">Read More</a>
                   </div>
                   
                 </div>
@@ -258,8 +259,7 @@ industrial applications. Trust us to deliver excellence in the creation and main
 meet your specific requirements.</p>
 </div>
                   <div class="text-right">
-                  <button type="button" class="btn btn-primary">Read More</button>
-                 
+                    <a href="{{url('/services')}}#industrial-RCC" class="btn btn-primary ">Read More</a>
                 </div>
               </div>
             </div>
@@ -279,7 +279,8 @@ longevity, integrity, and resilience of your structures. Explore our services ta
 challenges posed by construction joints.</p>
                   </div>
                   <div class="text-right">
-                  <button type="button" class="btn btn-primary">Read More</button>
+                    <a href="{{url('/services')}}#other-special" class="btn btn-primary ">Read More</a>
+                    
                   </div>
               </div>
              </div>  
@@ -299,8 +300,8 @@ and longevity of structures through precise treatments and high-quality material
 range of services tailored to meet your specific needs.</p>
                   </div>
                   <div class="text-right">
-                  <button type="button" class="btn btn-primary">Read More</button>
-                 
+                    <a href="{{url('/services')}}#expansion-joint" class="btn btn-primary ">Read More</a>
+                    
                 </div>
               </div>
             </div>
@@ -320,8 +321,7 @@ ensuring stability, longevity, and aesthetic appeal. Explore the excellence of e
 team.</p>
                   </div>
                   <div class="text-right ">
-                  <button type="button" class="btn btn-primary">Read More</button>
-                 
+                    <a href="{{url('/services')}}#epoxy-grouting" class="btn btn-primary ">Read More</a>
                 </div>
               </div>
             </div>
