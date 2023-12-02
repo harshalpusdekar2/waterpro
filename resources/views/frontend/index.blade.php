@@ -59,7 +59,7 @@
       </div>
     </div>
 
-    <div class="py-5">
+    {{-- <div class="py-5">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-lg-4">
@@ -91,7 +91,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
 
     <div class="site-section bg-image overlay" style="background-image: url('{{url('frontend/images/tr4.jpeg')}}');">
       <div class="container">
@@ -393,7 +393,7 @@ team.</p>
     </div>
     
 
-    <div class="site-section">
+    {{-- <div class="site-section">
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center">
@@ -472,9 +472,9 @@ team.</p>
 
         </div>
       </div>
-    </div>
+    </div> --}}
 
-    <div class="site-section">
+    {{-- <div class="site-section">
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center">
@@ -533,7 +533,7 @@ team.</p>
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
 
     <div class="site-section bg-image overlay" style="background-image: url('{{url('frontend/images/tr3.jpeg')}}');">
       <div class="container">
@@ -541,7 +541,7 @@ team.</p>
           <div class="col-md-7 text-center">
             <h2 class="text-white">Get In Touch With Us</h2>
             <p class="lead text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <p class="mb-0"><a href="#" class="btn btn-warning py-3 px-5 text-white">Contact Us</a></p>
+            <p class="mb-0"><a href="{{url('/contact')}}" class="btn btn-warning py-3 px-5 text-white">Contact Us</a></p>
           </div>
         </div>
       </div>
