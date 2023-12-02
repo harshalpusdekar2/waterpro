@@ -141,7 +141,7 @@
         <div class="row  ">
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="service-39381 h-100">
-              <img src="{{url('frontend/images/floor3.jpeg')}}" alt="Image" style= "height:18rem; width:100%;" class="img-fluid">
+              <img src="{{url('frontend/images/floor3.jpeg')}}" alt="Image"  class="img-fluid">
               <div class="p-4">
                 <h3><a href="#"><span class=" mr-1 text-primary"></span> Waterproofing for Basements and Tunnels.</a></h3>
                 <div class="">
@@ -163,7 +163,7 @@
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="service-39381 h-100">
             
-              <img src="{{url('frontend/images/toilet.jpeg')}}" alt="Image" style= "height:18rem; width:100%;"  class="img-fluid ">
+              <img src="{{url('frontend/images/toilet.jpeg')}}" alt="Image"   class="img-fluid ">
               <div class="p-4">
                 <h3><a href="#"><span class=" mr-1 text-primary"></span> Toilet & Terrace Waterproofing Services.</a></h3>
                 <div class="">
@@ -183,7 +183,7 @@
           </div>
           <div class="col-md-6 col-lg-4 mb-4 " >
             <div class="service-39381 h-100">
-              <img src="{{url('frontend/images/root.jpeg')}}" alt="Image" style= "height:18rem; width:100%;"  class="img-fluid">
+              <img src="{{url('frontend/images/root.jpeg')}}" alt="Image"  class="img-fluid">
               <div class="p-4">
                 <h3><a href="#"><span class=" mr-1 text-primary"></span> Roof Insulation Works & Terrace Gardens Services.</a></h3>
                 <div class="">
@@ -204,7 +204,7 @@
 
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="service-39381 h-100">
-              <img src="{{url('frontend/images/site.jpeg')}}" alt="Image" style= "height:18rem; width:100%;"  class="img-fluid">
+              <img src="{{url('frontend/images/site.jpeg')}}" alt="Image"   class="img-fluid">
               <div class="p-4">
                 <h3><a href="#"><span class=" mr-1 text-primary"></span> Structural Rehabilitation Work Services. </a></h3>
                 <div class="">
@@ -225,7 +225,7 @@ services.</p>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="service-39381 h-100">
-              <img src="{{url('frontend/images/floor1.jpeg')}}" alt="Image" style= "height:18rem; width:100%;" class="img-fluid">
+              <img src="{{url('frontend/images/floor1.jpeg')}}" alt="Image"  class="img-fluid">
               <div class="p-4">
                 <h3><a href="#"><span class=" mr-1 text-primary"></span> Swimming Tanks and Humidification Tanks Services.</a></h3>
                 <div class="">
@@ -246,7 +246,7 @@ services.</p>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="service-39381 h-100">
-              <img src="{{url('frontend/images/floor3.jpeg')}}" alt="Image"style= "height:18rem; width:100%;" class="img-fluid">
+              <img src="{{url('frontend/images/floor3.jpeg')}}" alt="Image" class="img-fluid">
               <div class="p-4">
                 <h3><a href="#"><span class=" mr-1 text-primary"></span> Industrial RCC Containers Services.</a></h3>
                 <div class="">
@@ -267,7 +267,7 @@ meet your specific requirements.</p>
 </div>
     <div class="col-md-6 col-lg-4 mb-4">
             <div class="service-39381 h-100">
-            <img src="{{url('frontend/images/road.jpeg')}}" alt="Image" style= "height:18rem; width:100%;" class="img-fluid">
+            <img src="{{url('frontend/images/road.jpeg')}}" alt="Image"  class="img-fluid">
               <div class="p-4">
                 <h3><a href="#"><span class=" mr-1 text-primary"></span> Other Special Treatment for Construction Joints Services.</a></h3>
                 <div class="">
@@ -287,7 +287,7 @@ challenges posed by construction joints.</p>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="service-39381 h-100">
-              <img src="{{url('frontend/images/floor.jpeg')}}" alt="Image"style= "height:18rem; width:100%;"  class="img-fluid">
+              <img src="{{url('frontend/images/floor.jpeg')}}" alt="Image"  class="img-fluid">
               <div class="p-4">
                 <h3><a href="#"><span class=" mr-1 text-primary"></span> Expansion Joint & Sealant Work, etc. Services.</a></h3>
                 <div class="">
@@ -308,7 +308,7 @@ range of services tailored to meet your specific needs.</p>
     </div>
     <div class="col-md-6 col-lg-4 mb-4">
             <div class="service-39381 h-100">
-            <img src="{{url('frontend/images/site.jpeg')}}" alt="Image" style= "height:18rem; width:100%;" class="img-fluid">
+            <img src="{{url('frontend/images/site.jpeg')}}" alt="Image"  class="img-fluid">
               <div class="p-4">
                 <h3><a href="#"><span class=" mr-1 text-primary"></span> Epoxy Grouting Work Services.</a></h3>
                 <div class="">
