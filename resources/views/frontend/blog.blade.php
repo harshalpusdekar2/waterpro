@@ -13,7 +13,7 @@
 
     .gallery img {
         width: 100%;
-        height: auto;
+        height:18rem;
         border-radius: 8px;
         transition: transform 0.3s ease-in-out;
         cursor: pointer;
@@ -52,20 +52,23 @@
     }
 </style>
 
-<h1 class="text-dark text-center m-5 pt-5 ">IMAGE GALLERY </h1>
+<h1 class="text-dark text-center m-5 pt-5">IMAGE GALLERY </h1>
 <div class="gallery" id="imageGallery">
-<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 1" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
-<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 2" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
-<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 3" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
-<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 4" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
-<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 5" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
-<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 6" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
-<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 7" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
-<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 8" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
-<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 9" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
-<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 10" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
-<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 11" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
-<img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image 12" onclick="openModal('{{ url('frontend/images/hero_2.jpg') }}')">
+<img src="{{ url('frontend/images/tr9.jpeg') }}" alt="Image 1" onclick="openModal('{{ url('frontend/images/tr9.jpeg') }}')">
+<img src="{{ url('frontend/images/tr2.jpeg') }}" alt="Image 2" onclick="openModal('{{ url('frontend/images/tr2.jpeg') }}')">
+<img src="{{ url('frontend/images/tr3.jpeg') }}" alt="Image 3" onclick="openModal('{{ url('frontend/images/tr3.jpeg') }}')">
+<img src="{{ url('frontend/images/tr4.jpeg') }}" alt="Image 4" onclick="openModal('{{ url('frontend/images/tr4.jpeg') }}')">
+<img src="{{ url('frontend/images/tr5.jpeg') }}" alt="Image 5" onclick="openModal('{{ url('frontend/images/tr5.jpeg') }}')">
+<img src="{{ url('frontend/images/tr6.jpeg') }}" alt="Image 6" onclick="openModal('{{ url('frontend/images/tr6.jpeg') }}')">
+<img src="{{ url('frontend/images/tr7.jpeg') }}" alt="Image 7" onclick="openModal('{{ url('frontend/images/tr7.jpeg') }}')">
+<img src="{{ url('frontend/images/tr8.jpeg') }}" alt="Image 8" onclick="openModal('{{ url('frontend/images/tr8.jpeg') }}')">
+<img src="{{ url('frontend/images/floor.jpeg') }}" alt="Image 9" onclick="openModal('{{ url('frontend/images/floor.jpeg') }}')">
+<img src="{{ url('frontend/images/floor1.jpeg') }}" alt="Image 10" onclick="openModal('{{ url('frontend/images/florr1.jpeg') }}')">
+<img src="{{ url('frontend/images/site.jpeg') }}" alt="Image 11" onclick="openModal('{{ url('frontend/images/site.jpeg') }}')">
+<img src="{{ url('frontend/images/structure.jpeg') }}" alt="Image 12" onclick="openModal('{{ url('frontend/images/struture.jpeg') }}')">
+<img src="{{ url('frontend/images/root.jpeg') }}" alt="Image 12" onclick="openModal('{{ url('frontend/images/rootroot1.jpeg') }}')">
+<img src="{{ url('frontend/images/root1.jpeg') }}" alt="Image 12" onclick="openModal('{{ url('frontend/images/.jpeg') }}')">
+<img src="{{ url('frontend/images/road.jpeg') }}" alt="Image 12" onclick="openModal('{{ url('frontend/images/road.jpeg') }}')">
 </div>
 
 <div class="modal" id="myModal">
