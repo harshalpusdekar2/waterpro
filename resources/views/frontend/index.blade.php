@@ -4,13 +4,13 @@
 
 
     <div class="hero-slide owl-carousel site-blocks-cover">
-      <div class="intro-section" style="background-image: url('{{url('frontend/images/tr3.jpeg')}}');;"> 
+      <div class="intro-section" style="background-image: url('{{url('frontend/images/terrace.jpeg')}}');;"> 
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-lg-7 ml-auto text-right" data-aos="fade-up">
-              <h1>Explore, Discover The Ocean</h1>
+            <div class="col-lg-7 mx-auto text-center" data-aos="fade-up">
+              <h1>Explore, The Dhruvi Creation</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, in distinctio nostrum laborum sed quisquam voluptate facilis non.</p>
-              <p><a href="#" class="btn btn-primary py-3 px-5">Read More</a></p>
+              {{-- <p><a href="#" class="btn btn-primary py-3 px-5">Read More</a></p> --}}
             </div>
           </div>
         </div>
@@ -20,9 +20,9 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-7 mx-auto text-center" data-aos="fade-up">
-              <h1>Enjoy The Ocean With Your Family</h1>
+              <h1>You Can Checkout Our Services </h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, in distinctio nostrum laborum sed quisquam voluptate facilis non.</p>
-              <p><a href="#" class="btn btn-primary py-3 px-5">Read More</a></p>
+              <p><a href="{{url('/services')}}" class="btn btn-primary py-3 px-5">Our Services</a></p>
             </div>
           </div>
         </div>
@@ -31,9 +31,9 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-7 mx-auto text-center" data-aos="fade-up">
-              <h1>Enjoy The Ocean With Your Family</h1>
+              <h1>You Can Contact Us</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, in distinctio nostrum laborum sed quisquam voluptate facilis non.</p>
-              <p><a href="#" class="btn btn-primary py-3 px-5">Read More</a></p>
+              <p><a href="{{url('/contact')}}" class="btn btn-primary py-3 px-5">Contact Us</a></p>
             </div>
           </div>
         </div>
@@ -53,7 +53,7 @@
             <h3 class="heading-92913 text-black">Welcome To Our Website</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, illum, quasi. Odit velit deserunt eligendi unde, enim. Enim fugiat.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eius ullam impedit architecto debitis facilis!</p>
-            <p><a href="#" class="btn btn-primary py-3 px-4">Learn More</a></p>
+            <p><a href="{{url('/about')}}" class="btn btn-primary py-3 px-4">Learn More</a></p>
           </div>
         </div>
       </div>

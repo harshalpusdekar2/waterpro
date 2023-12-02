@@ -2,12 +2,12 @@
 
 @section('main-container')
 
-<style>
+ <style>
 
     .gallery {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        gap: 36px;
+        gap: 10px;
         padding: 16px;
     }
 
@@ -52,7 +52,14 @@
     }
 </style>
 
-<h1 class="text-dark text-center m-5 pt-5">IMAGE GALLERY </h1>
+{{-- <h1 class="text-dark text-center m-5 pt-5">IMAGE GALLERY </h1> --}}
+ <div class="row justify-content-center mt-5 pt-5">
+    <div class="col-md-7 text-center">
+      <span class="text-serif text-primary">Gallery</span>
+      <h3 class="heading-92913 text-black text-center">For Images</h3>
+    </div>
+  </div>
+
 <div class="gallery" id="imageGallery">
 <img src="{{ url('frontend/images/tr9.jpeg') }}" alt="Image 1" onclick="openModal('{{ url('frontend/images/tr9.jpeg') }}')">
 <img src="{{ url('frontend/images/tr2.jpeg') }}" alt="Image 2" onclick="openModal('{{ url('frontend/images/tr2.jpeg') }}')">
@@ -76,6 +83,7 @@
 <img src="" alt="Modal Image" id="modalImage">
 </div>
 
+
 <script>
 function openModal(imagePath) {
     document.getElementById('myModal').style.display = 'flex';
@@ -91,117 +99,105 @@ function closeModal() {
 
 
 
-
-
-    {{-- <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            background-color: #f4f4f4;
-        }
-
-        .video-gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 16px;
-            padding: 16px;
-        }
-
-        .video-container {
-            position: relative;
-            cursor: pointer;
-        }
-
-        .video-thumbnail {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-
-        .play-button {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 60px;
-            height: 60px;
-            background-color: rgba(0, 0, 0, 0.7);
-            border: none;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #fff;
-            font-size: 24px;
-            cursor: pointer;
-        }
-
-        .video-modal {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.8);
-            justify-content: center;
-            align-items: center;
-        }
-
-        .video-modal video {
-            max-width: 80%;
-            max-height: 80%;
-            border-radius: 8px;
-        }
-
-        .close {
-            position: absolute;
-            top: 15px;
-            right: 15px;
-            color: #fff;
-            font-size: 24px;
-            cursor: pointer;
-        }
-    </style>
-
-<div class="video-gallery" id="videoGallery">
-    <div class="video-container" onclick="playVideo('video1.mp4')">
-        <img src="thumbnail1.jpg" alt="Video 1" class="video-thumbnail">
-        <button class="play-button">&#9654;</button>
+ <div class="row justify-content-center mt-5 pt-5">
+    <div class="col-md-7 text-center">
+      <span class="text-serif text-primary">Gallery</span>
+      <h3 class="heading-92913 text-black text-center">For Videos</h3>
     </div>
-    <div class="video-container" onclick="playVideo('video2.mp4')">
-        <img src="thumbnail2.jpg" alt="Video 2" class="video-thumbnail">
-        <button class="play-button">&#9654;</button>
-    </div>
-    <!-- Add more videos as needed -->
 </div>
 
-<div class="video-modal" id="videoModal">
-    <span class="close" onclick="closeVideoModal()">&times;</span>
-    <video controls autoplay id="modalVideo">
+<style>
+   
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 16px;
+    }
+
+    .video-item {
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+        border-radius: 8px;
+    }
+
+    .video-item video {
+        width: 100%;
+        height: 50%;
+        display: block;
+        border-radius: 8px;
+        outline: none;
+    }
+
+    .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal video {
+        width: 80%;
+        height: auto;
+        border-radius: 8px;
+        outline: none;
+    }
+
+    .close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+{{--------------------------------------- Videos ----------------------------------}}
+
+
+
+
+<div class="gallery">
+<div class="video-item" onclick="openModal('{{url('frontend/videos/Video1.mp4')}}')">
+    <video controls>
+        <source src="{{url('frontend/videos/Video1.mp4')}}" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </div>
+<div class="video-item" onclick="openModal('{{url('frontend/videos/Video1.mp4')}}')">
+    <video controls>
+        <source src="{{url('frontend/videos/Video1.mp4')}}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<!-- Add more videos as needed -->
+
+</div>
+
+<div class="modal" id="videoModal">
+<span class="close" onclick="closeModal()">&times;</span>
+<video controls autoplay>
+    <source src="" type="video/mp4" id="modalVideo">
+    Your browser does not support the video tag.
+</video>
+</div>
 
 <script>
-    function playVideo(videoPath) {
-        document.getElementById('videoModal').style.display = 'flex';
-        document.getElementById('modalVideo').src = videoPath;
-    }
+function openModal(videoSrc) {
+    document.getElementById('modalVideo').src = videoSrc;
+    document.getElementById('videoModal').style.display = 'flex';
+}
 
-    function closeVideoModal() {
-        document.getElementById('videoModal').style.display = 'none';
-        document.getElementById('modalVideo').pause();
-    }
-</script> --}}
-
-
-
-
-
-
-
-  
+function closeModal() {
+    document.getElementById('modalVideo').pause();
+    document.getElementById('videoModal').style.display = 'none';
+}
+</script>
 @endsection
