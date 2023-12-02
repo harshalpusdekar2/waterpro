@@ -79,7 +79,10 @@ h1, h2, h3, h4, h5,
   padding: 2.5em 0;
    }
 
- 
+   .site-section img{
+    height:24rem;
+    width:100%;
+   }
  
   @media (min-width: 768px)
    {
@@ -1599,6 +1602,7 @@ h1, h2, h3, h4, h5,
     line-height: 0;
     font-size: 70px;
     color: #1089ff; }
+   
 
 .service-29283 h3 {
   font-size: 20px;

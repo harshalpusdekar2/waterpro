@@ -24,7 +24,7 @@
 
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image" class="img-fluid">
+                        <img src="{{ url('frontend/images/floor.jpeg') }}" alt="Image" class="img-fluid">
                     </div>
                     <div class="col-md-6">
                         {{-- <span class="text-serif text-primary">About Us</span> --}}
@@ -53,7 +53,7 @@
                         </p>
                     </div>
                     <div class="col-md-6">
-                        <img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image" class="img-fluid">
+                        <img src="{{ url('frontend/images/site.jpeg') }}" alt="Image" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -76,7 +76,7 @@
 
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image" class="img-fluid">
+                        <img src="{{ url('frontend/images/toilet.jpeg') }}" alt="Image" class="img-fluid">
                     </div>
                     <div class="col-md-6">
                         {{-- <span class="text-serif text-primary">About Us</span> --}}
@@ -103,7 +103,7 @@
                             enhances both aesthetics and functionality.</p>
                     </div>
                     <div class="col-md-6">
-                        <img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image" class="img-fluid">
+                        <img src="{{ url('frontend/images/terrace.jpeg') }}" alt="Image" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -126,7 +126,7 @@
 
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image" class="img-fluid">
+                        <img src="{{ url('frontend/images/tr1.jpeg') }}" alt="Image" class="img-fluid">
                     </div>
                     <div class="col-md-6">
                         {{-- <span class="text-serif text-primary">About Us</span> --}}
@@ -154,7 +154,7 @@
                             providing a serene escape in the heart of the city</p>
                     </div>
                     <div class="col-md-6">
-                        <img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image" class="img-fluid">
+                        <img src="{{ url('frontend/images/tr2.jpeg') }}" alt="Image" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -268,7 +268,7 @@
 
                             <div class="col-md-4 service-29283">
                                 <span class="wrap-icon-39293">
-                                    <img src="{{ url('frontend/images/Concrete_degradation.png') }}" alt="">
+                                    <img src="{{ url('frontend/images/tr1.jpeg') }}" alt="">
                                 </span>
                                 <h3>Waterproofing:</h3>
                                 <p> Ensure a watertight structure with our advanced waterproofing techniques, preventing
@@ -277,7 +277,7 @@
                             </div>
                             <div class="col-md-4 service-29283">
                                 <span class="wrap-icon-39293">
-                                    <img src="{{ url('frontend/images/Crack_rehabilitation.jpg') }}" alt="">
+                                    <img src="{{ url('frontend/images/tr2.jpeg') }}" alt="">
                                 </span>
                                 <h3>Chemical Resistance:</h3>
                                 <p> Implement solutions to resist the corrosive effects of pool chemicals, extending the
@@ -285,7 +285,7 @@
                             </div>
                             <div class="service-29283 col-md-4">
                                 <span class="wrap-icon-39293">
-                                    <img src="{{ url('frontend/images/Foundation_stabilization.jpg') }}" alt="">
+                                    <img src="{{ url('frontend/images/tr3.jpeg') }}" alt="">
                                 </span>
                                 <h3>Safety Measures:</h3>
                                 <p> Prioritize safety with non-slip coatings, proper drainage systems, and other features to
@@ -301,7 +301,7 @@
 
                             <div class="col-md-4 service-29283">
                                 <span class="wrap-icon-39293">
-                                    <img src="{{ url('frontend/images/Concrete_degradation.png') }}" alt="">
+                                    <img src="{{ url('frontend/images/tr4.jpeg') }}" alt="">
                                 </span>
                                 <h3>Waterproofing and Sealing:</h3>
                                 <p>Protect tanks from moisture-related issues with expert waterproofing and sealing
@@ -309,7 +309,7 @@
                             </div>
                             <div class="col-md-4 service-29283">
                                 <span class="wrap-icon-39293">
-                                    <img src="{{ url('frontend/images/Crack_rehabilitation.jpg') }}" alt="">
+                                    <img src="{{ url('frontend/images/tr5.jpeg') }}" alt="">
                                 </span>
                                 <h3>Temperature and Humidity Control :</h3>
                                 <p>Implement solutions for precise control of temperature and humidity
@@ -318,7 +318,7 @@
                             </div>
                             <div class="service-29283 col-md-4">
                                 <span class="wrap-icon-39293">
-                                    <img src="{{ url('frontend/images/Foundation_stabilization.jpg') }}" alt="">
+                                    <img src="{{ url('frontend/images/site.jpeg') }}" alt="">
                                 </span>
                                 <h3>Customized Designs : </h3>
                                 <p>Tailor-made solutions that cater to the unique requirements of your humidification tank,
@@ -364,7 +364,7 @@
                             </div>
                             <div class="col-md-4 service-29283">
                                 <span class="wrap-icon-39293">
-                                    <img src="{{ url('frontend/images/Crack_rehabilitation.jpg') }}" alt="">
+                                    <img src="{{ url('frontend/images/terrace.jpeg') }}" alt="">
                                 </span>
                                 <h3>Structural Integrity :</h3>
                                 <p> Ensure the structural integrity of containers with high-quality reinforced concrete,
@@ -372,7 +372,7 @@
                             </div>
                             <div class="service-29283 col-md-4">
                                 <span class="wrap-icon-39293">
-                                    <img src="{{ url('frontend/images/Foundation_stabilization.jpg') }}" alt="">
+                                    <img src="{{ url('frontend/images/terrace1.jpeg') }}" alt="">
                                 </span>
                                 <h3>Maintenance and Repair :</h3>
                                 <p> Benefit from our ongoing maintenance and repair services, enhancing the lifespan
@@ -403,7 +403,7 @@
                             </div>
                             <div class="service-29283 col-md-4">
                                 {{-- <span class="wrap-icon-39293">
-                                    <img src="{{ url('frontend/images/Foundation_stabilization.jpg') }}" alt="">
+                                    <img src="{{ url('frontend/images/structure.jpeg') }}" alt="">
                                 </span> --}}
                                 <h3>Compliance with Standards :</h3>
                                 <p>Our containers meet or exceed industry standards, ensuring safety, reliability,
@@ -442,7 +442,7 @@
 
                             <div class="col-md-4 service-29283">
                                 <span class="wrap-icon-39293">
-                                    <img src="{{ url('frontend/images/Concrete_degradation.png') }}" alt="">
+                                    <img src="{{ url('frontend/images/site.jpeg') }}" alt="">
                                 </span>
                                 <h3>Joint Sealing :</h3>
                                 <p>Utilize advanced sealing techniques to protect construction joints from water ingress,
@@ -450,7 +450,7 @@
                             </div>
                             <div class="col-md-4 service-29283">
                                 <span class="wrap-icon-39293">
-                                    <img src="{{ url('frontend/images/Crack_rehabilitation.jpg') }}" alt="">
+                                    <img src="{{ url('frontend/images/root.jpeg') }}" alt="">
                                 </span>
                                 <h3>Flexible Joint Fillers :</h3>
                                 <p>Implement flexible joint fillers to accommodate structural movement, reducing the risk of
@@ -458,7 +458,7 @@
                             </div>
                             <div class="service-29283 col-md-4">
                                 <span class="wrap-icon-39293">
-                                    <img src="{{ url('frontend/images/Foundation_stabilization.jpg') }}" alt="">
+                                    <img src="{{ url('frontend/images/root1.jpeg') }}" alt="">
                                 </span>
                                 <h3>Expansion Joint Treatments :</h3>
                                 <p>Address expansion joints with precision, ensuring proper sealing and
@@ -480,7 +480,7 @@
                             </div>
                             <div class="col-md-4 service-29283">
                                 {{-- <span class="wrap-icon-39293">
-                                    <img src="{{ url('frontend/images/Crack_rehabilitation.jpg') }}" alt="">
+                                    <img src="{{ url('frontend/images/tr1.jpeg') }}" alt="">
                                 </span> --}}
                                 <h3>Preventive Measures :</h3>
                                 <p> Implement treatments that go beyond immediate issues, providing preventive
@@ -489,7 +489,7 @@
                             </div>
                             <div class="service-29283 col-md-4">
                                 {{-- <span class="wrap-icon-39293">
-                                    <img src="{{ url('frontend/images/Foundation_stabilization.jpg') }}" alt="">
+                                    <img src="{{ url('frontend/images/tr5.jpeg') }}" alt="">
                                 </span> --}}
                                 <h3>Compliance with Standards :</h3>
                                 <p>Our treatments adhere to industry standards, ensuring quality, safety, and
@@ -525,7 +525,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <h4 class="heading-92913 text-dark">1. Expansion Joint Treatments:</h4>
-                                <img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image" class="img-fluid">
+                                <img src="{{ url('frontend/images/floor.jpeg') }}" alt="Image" class="img-fluid">
                             </div>
                             <div class="col-md-6">
                                 <div class="row mt-4">
@@ -535,7 +535,7 @@
                                             ingress,
                                             preventing potential damage.</p>
                                         <span class="wrap-icon-39293 mt-5">
-                                            <img src="{{ url('frontend/images/Concrete_degradation.png') }}"
+                                            <img src="{{ url('frontend/images/floor1.jpeg') }}"
                                                 alt="">
                                         </span>
                                     </div>
@@ -545,7 +545,7 @@
                                             risk of
                                             cracks and maintaining the integrity of joints.</p>
                                         <span class="wrap-icon-39293 mt-5">
-                                            <img src="{{ url('frontend/images/Crack_rehabilitation.jpg') }}"
+                                            <img src="{{ url('frontend/images/floor3.jpeg') }}"
                                                 alt="">
                                         </span>
                                     </div>
@@ -556,7 +556,7 @@
                         <div class="row mt-3">
                             <div class="col-md-6">
                                 <h4 class="heading-92913 text-dark">2. Sealant Work :</h4>
-                                <img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image" class="img-fluid">
+                                <img src="{{ url('frontend/images/terrace.jpeg') }}" alt="Image" class="img-fluid">
                             </div>
                             <div class="col-md-6">
                                 <div class="row mt-4">
@@ -565,7 +565,7 @@
                                         <p>Utilize advanced sealant materials and techniques to provide effective waterproofing solutions 
                                             for various surfaces</p>
                                         <span class="wrap-icon-39293 mt-5">
-                                            <img src="{{ url('frontend/images/Concrete_degradation.png') }}"
+                                            <img src="{{ url('frontend/images/floor1.jpeg') }}"
                                                 alt="">
                                         </span>
                                     </div>
@@ -575,7 +575,7 @@
                                             also it's adds to the visual appeal .
                                             </p>
                                         <span class="wrap-icon-39293 mt-5">
-                                            <img src="{{ url('frontend/images/Crack_rehabilitation.jpg') }}"
+                                            <img src="{{ url('frontend/images/floor.jpeg') }}"
                                                 alt="">
                                         </span>
                                     </div>
@@ -587,7 +587,7 @@
                             <div class="col-md-6">
                                 <h4 class="heading-92913 text-dark">3. Other Specialized Treatments:
                                 </h4>
-                                <img src="{{ url('frontend/images/hero_2.jpg') }}" alt="Image" class="img-fluid">
+                                <img src="{{ url('frontend/images/tr4.jpeg') }}" alt="Image" class="img-fluid">
                             </div>
                             <div class="col-md-6">
                                 <div class="row mt-4">
@@ -596,7 +596,7 @@
                                         <p>Tailored treatments to address specific challenges, including joint sealing, flexible joint 
                                             fillers, and preventive measures.</p>
                                         <span class="wrap-icon-39293 mt-5">
-                                            <img src="{{ url('frontend/images/Concrete_degradation.png') }}"
+                                            <img src="{{ url('frontend/images/root1.jpeg') }}"
                                                 alt="">
                                         </span>
                                     </div>
@@ -606,7 +606,7 @@
                                             treatments.
                                             </p>
                                         <span class="wrap-icon-39293 mt-5">
-                                            <img src="{{ url('frontend/images/Crack_rehabilitation.jpg') }}"
+                                            <img src="{{ url('frontend/images/tr1.jpeg') }}"
                                                 alt="">
                                         </span>
                                     </div>
@@ -647,7 +647,7 @@
 
                             <div class="col-md-4 service-29283">
                                 <span class="wrap-icon-39293">
-                                    <img src="{{ url('frontend/images/Concrete_degradation.png') }}" alt="">
+                                    <img src="{{ url('frontend/images/tr4.jpeg') }}" alt="">
                                 </span>
                                 <h3>Structural Stability :</h3>
                                 <p>Structural Stability: Strengthen and stabilize structures with precision epoxy grouting,
@@ -656,7 +656,7 @@
                             </div>
                             <div class="col-md-4 service-29283">
                                 <span class="wrap-icon-39293">
-                                    <img src="{{ url('frontend/images/Crack_rehabilitation.jpg') }}" alt="">
+                                    <img src="{{ url('frontend/images/tr3.jpeg') }}" alt="">
                                 </span>
                                 <h3>Precision Application :</h3>
                                 <p>Our expert team applies epoxy grout with precision, whether it's for machinery bases,
@@ -665,7 +665,7 @@
                             </div>
                             <div class="service-29283 col-md-4">
                                 <span class="wrap-icon-39293">
-                                    <img src="{{ url('frontend/images/Foundation_stabilization.jpg') }}" alt="">
+                                    <img src="{{ url('frontend/images/tr2.jpeg') }}" alt="">
                                 </span>
                                 <h3>Aesthetic Enhancements :</h3>
                                 <p>Enhance the appearance of surfaces with epoxy grouting that not only provides
