@@ -63,7 +63,7 @@
               </div>
               <div class="text">
                 <span class="h4 d-block">Chandramani Nagar, Nagpur</span>
-                <span class="caption-text">Pt No-08, Sreett No-7L</span>
+                <span class="caption-text">Plot No-08, Street No-7L</span>
               </div>
             </div>
 
@@ -74,8 +74,8 @@
                 <span class="icon-phone text-primary"></span>
               </div>
               <div class="text">
-                <span class="h4 d-block">9370-42-9705</span>
-                <span class="caption-text">Toll free</span>
+                <span class="h4 d-block">+91-9370-42-9705</span>
+                <span class="caption-text">Toll Free Number</span>
               </div>
             </div>
           </div>
