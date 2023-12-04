@@ -2,7 +2,7 @@
 
 @section('main-container')
     
-    <div class="site-section">
+    <div class="site-section1">
 
         {{-- ---------------------------- For Basements and Tunnels ------------------------------- --}}
 

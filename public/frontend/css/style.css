@@ -80,6 +80,10 @@ h1, h2, h3, h4, h5,
    }
 
    .site-section img{
+    height:auto;
+    width:100%;
+   }
+   .site-section1 img{
     height:22.5rem;
     width:100%;
    }
