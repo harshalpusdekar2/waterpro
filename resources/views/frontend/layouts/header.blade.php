@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-  <title>Dhruvi Creation and Waterproofing</title>
+  <title>WaterBoat &mdash; Website Template by Colorlib</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Dancing+Script:400,700|Muli:300,400" rel="stylesheet">
   <link rel="stylesheet" href="{{url('frontend/fonts/icomoon/style.css')}}"/>
-  
+
   <link rel="stylesheet" href="{{url('frontend/css/bootstrap.min.css')}}"/>
   <link rel="stylesheet" href="{{url('frontend/css/jquery-ui.css')}}"/>
   <link rel="stylesheet" href="{{url('frontend/css/owl.carousel.min.css')}}"/>
@@ -25,8 +25,13 @@
   <link href="{{url('public/frontend/css/jquery.mb.YTPlayer.min.css')}}" media="all" rel="stylesheet" type="text/css"/>
 
   <link rel="stylesheet" href="{{url('frontend/css/style.css')}}"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+
 
 
 </head>
@@ -48,56 +53,56 @@
     
     <div class="header-top bg-light">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-6 col-lg-3">
-            <a href="{{url('/')}}">
-              <img src="{{url('frontend/images/logo2.png')}}" alt="Image" class="img-fluid">
-              <!-- <strong>Water</strong>Boat -->
-            </a>
-          </div>
-          <div class="col-lg-3 d-none d-lg-block">
+       <div class="row align-items-center">
+         <div class="col-6 col-lg-3">
+           <a href="{{url('/')}}">
+             <img src="{{url('frontend/images/logo2.png')}}" alt="Image" class="img-fluid" style="width: 75%; height: auto;">
+             <!-- <strong>Water</strong>Boat -->
+           </a>
+         </div>
+         <div class="col-lg-3 d-none d-lg-block">
 
-            <div class="quick-contact-icons d-flex">
-              <div class="icon align-self-start">
-                <span class="icon-location-arrow text-primary"></span>
-              </div>
-              <div class="text">
-                <span class="h4 d-block">Chandramani Nagar, Nagpur</span>
-                <span class="caption-text">Plot No-08, Street No-7L</span>
-              </div>
-            </div>
+           <div class="quick-contact-icons d-flex">
+             <div class="icon align-self-start">
+               <span class="icon-location-arrow text-primary"></span>
+             </div>
+             <div class="text">
+               <span class="h4 d-block">Chandramani Nagar, Nagpur</span>
+               <span class="caption-text">Plot No-08, Street No-7L</span>
+             </div>
+           </div>
 
-          </div>
-          <div class="col-lg-3 d-none d-lg-block">
-            <div class="quick-contact-icons d-flex">
-              <div class="icon align-self-start">
-                <span class="icon-phone text-primary"></span>
-              </div>
-              <div class="text">
-                <span class="h4 d-block">+91-9370-42-9705</span>
-                <span class="caption-text">Toll Free Number</span>
-              </div>
-            </div>
-          </div>
+         </div>
+         <div class="col-lg-3 d-none d-lg-block">
+           <div class="quick-contact-icons d-flex">
+             <div class="icon align-self-start">
+               <span class="icon-phone text-primary"></span>
+             </div>
+             <div class="text">
+               <span class="h4 d-block">+91-9370-42-9705</span>
+               <span class="caption-text">Toll Free Number</span>
+             </div>
+           </div>
+         </div>
 
-          <div class="col-lg-3 d-none d-lg-block">
-            <div class="quick-contact-icons d-flex">
-              <div class="icon align-self-start">
-                <span class="icon-envelope text-primary"></span>
-              </div>
-              <div class="text">
-                <span class="h4 d-block">walchetwar.rw@gmail.com</span>
-                <span class="caption-text">Feel Free To Mail</span>
-              </div>
-            </div>
-          </div>
+         <div class="col-lg-3 d-none d-lg-block">
+           <div class="quick-contact-icons d-flex">
+             <div class="icon align-self-start">
+               <span class="icon-envelope text-primary"></span>
+             </div>
+             <div class="text">
+               <span class="h4 d-block">walchetwar.rw@gmail.com</span>
+               <span class="caption-text">Feel Free To Mail</span>
+             </div>
+           </div>
+         </div>
 
-          <div class="col-6 d-block d-lg-none text-right">
-              <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
-                class="icon-menu h3"></span></a>
-          </div>
-        </div>
-      </div>
+         <div class="col-6 d-block d-lg-none text-right">
+             <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
+               class="icon-menu h3"></span></a>
+         </div>
+       </div>
+     </div>
       
 
 
@@ -110,7 +115,7 @@
           <div class="mx-auto">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block">
-                <li>
+                <li class="active">
                   <a href="{{url('/')}}" class="nav-link text-left">Home</a>
                 </li>
                 <li>
@@ -122,11 +127,10 @@
                 <li>
                     <a href="{{url('/testimonials')}}" class="nav-link text-left">Testimonials</a>
                 </li>
-                 <li><a href= "{{url('/blog')}}" class="nav-link text-left">Gallery</a></li>              
+                <li><a href= "{{url('/blog')}}" class="nav-link text-left">Blog</a></li>
                 <li>
                     <a href="{{url('/contact')}}" class="nav-link text-left">Contact</a>
-                  </li>            
-                
+                  </li>
               </ul>                                                                                                                                                                                                                                                                                          </ul>
             </nav>
 
@@ -139,3 +143,4 @@
     
     </div>
     
+ 
