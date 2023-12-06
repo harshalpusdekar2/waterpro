@@ -147,8 +147,8 @@
                   Gallery
                   </a>
                <ul class="dropdown-menu bg-dark">
-                  <li><a href="#">Images</a></li>
-                   <li><a href="#">Videos</a></li>
+                  <li><a href="{{url('/images')}}">Images</a></li>
+                   <li><a href="{{url('/videos')}}">Videos</a></li>
           
                </ul>
              </li>

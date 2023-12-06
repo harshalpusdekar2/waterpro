@@ -38,6 +38,9 @@ Route::get('/sealant',[SealantController::class,'index']);
 Route::get('/structure',[StructuralController::class,'index']);
 Route::get('/swimming',[SwimmingController::class,'index']);
 Route::get('/toilet',[ToiletController::class,'index']);
+Route::get('/images',[ImagesController::class,'index']);
+Route::get('/videos',[VideosController::class,'index']);
+
 
 
 
