@@ -16,8 +16,6 @@ Route::get('/testimonials',[TestomonialController::class,'index']);
 Route::get('/blog',[BlogController::class,'index']);
 Route::get('/contact',[ContactController::class,'index']);
 
-
-
 // Route::get('/', function () {
 //     return view('welcome');
 // });

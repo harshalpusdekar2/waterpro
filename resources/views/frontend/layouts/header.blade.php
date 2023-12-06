@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>WaterBoat &mdash; Website Template by Colorlib</title>
+  <title>Dhruvi Creation</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -121,13 +121,37 @@
                 <li>
                   <a href="{{url('/about')}}" class="nav-link text-left">About Us</a>
                 </li>
-                <li>
+                {{-- <li>
                   <a href="{{url('/services')}}" class="nav-link text-left">Services</a>
-                </li>
-                <li>
-                    <a href="{{url('/testimonials')}}" class="nav-link text-left">Testimonials</a>
-                </li>
-                <li><a href= "{{url('/blog')}}" class="nav-link text-left">Blog</a></li>
+                </li> --}}
+              <li class="nav-item dropdown">
+                   <a href="{{url('/services')}}" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   Services
+                   </a>
+                <ul class="dropdown-menu bg-dark">
+                   <li><a href="{{url('/basement')}}">Basements & Tunnels</a></li>
+                    <li><a href="{{url('/toilet')}}">Toilet & Terrace</a></li>
+                   <li><a href="{{url('/')}}">Roof Insulation Works & Terrace Gardens</a></li>
+                    <li><a href="{{url('/structure')}}">Structural Rehabitation</a></li>
+                     <li><a href="{{url('/swimming')}}">Swimming Tanks & Humidification Tanks</a></li>
+                    <li><a href="{{url('/industrial')}}">Industrial RCC Containers Services</a></li>
+                    <li><a href="{{url('/construction')}}">Other Special Treatments for Construction Services</a></li>
+                 <li><a href="{{url('/sealant')}}">Expansion Joint & Sealant Work</a></li>
+                 <li><a href="{{url('/epoxy')}}">Epoxy Grouting Work Services</a></li>
+           
+                </ul>
+              </li>
+                {{-- <li><a href= "{{url('/blog')}}" class="nav-link text-left">Blog</a></li> --}}
+                <li class="nav-item dropdown">
+                  <a href="{{url('/blog')}}" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Gallery
+                  </a>
+               <ul class="dropdown-menu bg-dark">
+                  <li><a href="#">Images</a></li>
+                   <li><a href="#">Videos</a></li>
+          
+               </ul>
+             </li>
                 <li>
                     <a href="{{url('/contact')}}" class="nav-link text-left">Contact</a>
                   </li>
