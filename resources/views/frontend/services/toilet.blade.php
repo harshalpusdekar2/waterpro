@@ -5,7 +5,7 @@
  
  {{-- ---------------------------- For Toilet & Terrace ------------------------------- --}}
 
-        <div class="container" style="background:whitesmoke" id="toilet-terrace">
+        <div class="container pt-5" id="toilet-terrace">
             <div class="row justify-content-center my-5">
                 <div class="col-md-7 text-center">
                     <span class="text-serif text-primary">Waterproofing</span>

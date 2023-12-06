@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class SwimmingController extends Controller
 {
     public function index(){
-        return view('frontend.about');
+        return view('frontend.services.swimming');
     }
 }
