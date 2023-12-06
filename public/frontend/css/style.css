@@ -1003,9 +1003,10 @@ h1, h2, h3, h4, h5,
       font-size: 15px; }
 
 .footer {
-  padding: 4rem 0;
+  padding: 2rem 0;
   background: #000;
   font-size: 15px;
+
   color: #888; }
   .footer .footer-heading {
     font-size: 16px;
@@ -1020,8 +1021,9 @@ h1, h2, h3, h4, h5,
     color: #1088ff97;
     text-decoration: underline; }
   .footer .copyright {
-    padding-top: 7rem;
-    text-align: center; }
+    padding-top: 2rem;
+    text-align: center;
+  padding-bottom: 0rem; }
 
 .ftco-subscribe-1 {
   background-size: cover;
@@ -1237,12 +1239,12 @@ h1, h2, h3, h4, h5,
     color: #fff !important; }
 
 .header-top .quick-contact-icons .text .h4 {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   color: #000;
   margin-bottom: 0; }
 
 .header-top .quick-contact-icons .text .caption-text {
-  font-size: 1rem; }
+  font-size: 0.9rem; }
 
 .block-2 {
   background: #09162a;
