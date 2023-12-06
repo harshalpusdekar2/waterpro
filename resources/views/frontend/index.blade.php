@@ -144,7 +144,7 @@
             <div class="row  ">
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="service-39381 h-100">
-                        <a href="{{ url('/services') }}#basement-tunnel">
+                        <a href="{{ url('/basement')}}">
                             <img src="{{ url('frontend/images/img11.jpeg') }}" alt="Image" class="img-fluid">
                             <div class="card-content p-4">
                                 <h3>Waterproofing for Basements and
@@ -163,7 +163,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="service-39381 h-100">
-                        <a href="{{ url('/services') }}#toilet-terrace">
+                        <a href="{{ url('/toilet') }}">
                             <img src="{{ url('frontend/images/img14.jpeg') }}" alt="Image" class="img-fluid">
                             <div class="card-content p-4">
                                 <h3>Toilet & Terrace Waterproofing Services.</h3>
@@ -182,7 +182,7 @@
         
             <div class="col-md-6 col-lg-4 mb-4 ">
                 <div class="service-39381 h-100">
-                    <a href="{{ url('/services') }}#roof-insulation" >
+                    <a href="{{ url('/roof')}}" >
                     <img src="{{ url('frontend/images/img3.jpeg') }}" alt="Image" class="img-fluid">
                     <div class="card-content p-4">
                         <h3>Roof Insulation Works & Terrace
@@ -202,7 +202,7 @@
 
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="service-39381 h-100">
-                    <a href="{{ url('/services') }}#structural-rehabilitation">
+                    <a href="{{ url('/structure') }}>
                     <img src="{{ url('frontend/images/img4.jpeg') }}" alt="Image" class="img-fluid">
                     <div class="card-content p-4">
                         <h3>Structural Rehabilitation Work
@@ -224,7 +224,7 @@
             </div>
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="service-39381 h-100">
-                    <a href="{{ url('/services') }}#swimming-tanks">
+                    <a href="{{ url('/swimming') }}">
                     <img src="{{ url('frontend/images/img10.jpeg') }}" alt="Image" class="img-fluid">
                     <div class="card-content p-4">
                         <h3>Swimming Tanks and
@@ -246,7 +246,7 @@
             </div>
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="service-39381 h-100">
-                    <a href="{{ url('/services') }}#industrial-RCC">
+                    <a href="{{ url('/industrial') }}">
                     <img src="{{ url('frontend/images/img9.jpeg') }}" alt="Image" class="img-fluid">
                     <div class="card-content p-4">
                         <h3>Industrial RCC Containers
@@ -267,7 +267,7 @@
             </div>
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="service-39381 h-100">
-                    <a href="{{ url('/services') }}#other-special">
+                    <a href="{{ url('/construction')}}">
                     <img src="{{ url('frontend/images/img8.jpeg') }}" alt="Image" class="img-fluid">
                     <div class="card-content p-4">
                         <h3>Other Special Treatment for
@@ -288,7 +288,7 @@
             </div>
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="service-39381 h-100">
-                    <a href="{{ url('/services') }}#expansion-joint">
+                    <a href="{{ url('/sealant') }}">
                     <img src="{{ url('frontend/images/img23.jpeg') }}" alt="Image" class="img-fluid">
                     <div class="card-content p-4">
                         <h3>Expansion Joint & Sealant Work,
@@ -311,7 +311,7 @@
             </div>
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="service-39381 h-100">
-                    <a href="{{ url('/services') }}#epoxy-grouting">
+                    <a href="{{ url('/epoxy') }}">
                     <img src="{{ url('frontend/images/img19.jpeg') }}" alt="Image" class="img-fluid">
                     <div class="card-content p-4">
                         <h3>Epoxy Grouting Work
