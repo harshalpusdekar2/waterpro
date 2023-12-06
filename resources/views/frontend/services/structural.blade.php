@@ -4,7 +4,7 @@
     
   {{-- ----------------------------  Structural Rehabilitation Work Services ------------------------------- --}}
 
-   <div class="container" style="background-color: whitesmoke" id="structural-rehabilitation">
+   <div class="container pt-5 id="structural-rehabilitation">
     <div class="row justify-content-center mt-5">
         <div class="col-md-7 text-center">
             <span class="text-serif text-primary">Waterproofing</span>

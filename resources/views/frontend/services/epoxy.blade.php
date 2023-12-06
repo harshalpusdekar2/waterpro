@@ -5,7 +5,7 @@
  
  {{-- ----------------------------------- Epoxy Grouting Work Services -------------------------------- --}}
 
- <div class="container" id="epoxy-grouting">
+ <div class="container pt-5" id="epoxy-grouting">
     <div class="row justify-content-center mt-5">
         <div class="col-md-7 text-center">
             <span class="text-serif text-primary">Waterproofing</span>

@@ -4,7 +4,7 @@
   
   {{-- ----------------------------------- Industrial RCC Containers Services -------------------------------- --}}
 
-  <div class="container" style="background: whitesmoke " id="industrial-RCC">
+  <div class="container pt-5" id="industrial-RCC">
     <div class="row justify-content-center mt-5">
         <div class="col-md-7 text-center">
             <span class="text-serif text-primary">Waterproofing</span>

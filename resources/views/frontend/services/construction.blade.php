@@ -5,7 +5,7 @@
   
   {{-- ----------------------------------- Other Special Treatment for Construction Joints Services -------------------------------- --}}
 
-  <div class="container" id="other-special">
+  <div class="container pt-5" id="other-special">
     <div class="row justify-content-center mt-5">
         <div class="col-md-7 text-center">
             <span class="text-serif text-primary">Waterproofing</span>

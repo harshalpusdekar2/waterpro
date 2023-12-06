@@ -5,7 +5,7 @@
   
   {{-- -------------------------------------  Expansion Joint & Sealant Work, etc. Services ----------------------------- --}}
 
-  <div class="container" style="background: whitesmoke" id="expansion-joint">
+  <div class="container pt-5"  id="expansion-joint">
     <div class="row justify-content-center mt-5">
         <div class="col-md-7 text-center">
             <span class="text-serif text-primary">Waterproofing</span>
