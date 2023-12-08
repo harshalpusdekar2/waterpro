@@ -125,11 +125,4 @@
         <img src="" alt="Modal Image" id="modalImage">
     </div>
 
-
-    <div class="row justify-content-center mt-5 pt-5">
-        <div class="col-md-7 text-center">
-            <span class="text-serif text-primary">Gallery</span>
-            <h3 class="heading-92913 text-black text-center">For Videos</h3>
-        </div>
-    </div>
 @endsection

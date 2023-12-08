@@ -202,7 +202,7 @@
 
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="service-39381 h-100">
-                    <a href="{{ url('/structure') }}>
+                    <a href="{{ url('/structure') }}">
                     <img src="{{ url('frontend/images/img4.jpeg') }}" alt="Image" class="img-fluid">
                     <div class="card-content p-4">
                         <h3>Structural Rehabilitation Work
