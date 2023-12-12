@@ -33,8 +33,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
     </script>
-<link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -111,55 +112,66 @@
 
 
 
-            <div class="site-navbar py-2 js-sticky-header site-navbar-target d-none pl-0 d-lg-block" role="banner">
+            <div class="site-navbar js-sticky-header site-navbar-target d-none pl-0 d-lg-block" role="banner"
+                style="height: 60px;">
 
                 <div class="container">
                     <div class="d-flex align-items-center">
 
                         <div class="mx-auto navbardesign">
                             <nav class="site-navigation position-relative text-right" role="navigation">
-              <ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block">
-                <li class="active">
-                  <a href="{{url('/')}}" class="nav-link text-left">Home</a>
-                </li>
-                <li>
-                  <a href="{{url('/about')}}" class="nav-link text-left">About Us</a>
-                </li>
-                
-              <li class="nav-item dropdown">
-                   <a href="{{url('/services')}}" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                   Services
-                   </a>
-                <ul class="dropdown-menu bg-light text-dark">
-                   <li><a href="{{url('/basement')}}">Basements & Tunnels</a></li>
-                    <li><a href="{{url('/toilet')}}">Toilet & Terrace</a></li>
-                   <li><a href="{{url('/roof')}}">Roof Insulation Works & Terrace Gardens</a></li>
-                    <li><a href="{{url('/structure')}}">Structural Rehabitation</a></li>
-                     <li><a href="{{url('/swimming')}}">Swimming Tanks & Humidification Tanks</a></li>
-                    <li><a href="{{url('/industrial')}}">Industrial RCC Containers Services</a></li>
-                    <li><a href="{{url('/construction')}}">Other Special Treatments for Construction Services</a></li>
-                 <li><a href="{{url('/sealant')}}">Expansion Joint & Sealant Work</a></li>
-                 <li><a href="{{url('/epoxy')}}">Epoxy Grouting Work Services</a></li>
-           
-                </ul>
-              </li>
-                <li class="nav-item dropdown">
-                  <a href="{{url('/blog')}}" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Gallery
-                  </a>
-               <ul class="dropdown-menu bg-light text-dark">
-                  <li><a href="{{url('/images')}}">Images</a></li>
-                   <li><a href="{{url('/videos')}}">Videos</a></li>
-          
-               </ul>
-             </li>
-                <li>
-                    <a href="{{url('/contact')}}" class="nav-link text-left">Contact</a>
-                  </li>
-              </ul>                                                                                                                                                                                                                                                                                          </ul>
-            </nav>
+                                <ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block">
+                                    <li class="active">
+                                        <a href="{{ url('/') }}" class="nav-link text-left">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ url('/about') }}" class="nav-link text-left">About Us</a>
+                                    </li>
 
-                            
+                                    <li class="nav-item dropdown">
+                                        <a href="{{ url('/services') }}" class="nav-link dropdown-toggle"
+                                            href="#" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Services
+                                        </a>
+                                        <ul class="dropdown-menu bg-light text-dark">
+                                            <li><a href="{{ url('/basement') }}">Basements & Tunnels</a></li>
+                                            <li><a href="{{ url('/toilet') }}">Toilet & Terrace</a></li>
+                                            <li><a href="{{ url('/roof') }}">Roof Insulation Works & Terrace
+                                                    Gardens</a></li>
+                                            <li><a href="{{ url('/structure') }}">Structural Rehabitation</a></li>
+                                            <li><a href="{{ url('/swimming') }}">Swimming Tanks & Humidification
+                                                    Tanks</a></li>
+                                            <li><a href="{{ url('/industrial') }}">Industrial RCC Containers
+                                                    Services</a></li>
+                                            <li><a href="{{ url('/construction') }}">Other Special Treatments for
+                                                    Construction Services</a></li>
+                                            <li><a href="{{ url('/sealant') }}">Expansion Joint & Sealant Work</a>
+                                            </li>
+                                            <li><a href="{{ url('/epoxy') }}">Epoxy Grouting Work Services</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a href="{{ url('/blog') }}" class="nav-link dropdown-toggle"
+                                            href="#" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Gallery
+                                        </a>
+                                        <ul class="dropdown-menu bg-light text-dark">
+                                            <li><a href="{{ url('/images') }}">Images</a></li>
+                                            <li><a href="{{ url('/videos') }}">Videos</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="{{ url('/contact') }}" class="nav-link text-left">Contact</a>
+                                    </li>
+                                </ul>
+                                </ul>
+                            </nav>
+
+
                         </div>
 
                     </div>
@@ -168,13 +180,14 @@
             </div>
 
         </div>
+    </div>
 
-        <script>
-            $(document).ready(function() {
-                $('.nav-item.dropdown').hover(function() {
-                    $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn(300);
-                }, function() {
-                    $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(300);
-                });
+    <script>
+        $(document).ready(function() {
+            $('.nav-item.dropdown').hover(function() {
+                $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn(300);
+            }, function() {
+                $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(300);
             });
-        </script>
+        });
+    </script>

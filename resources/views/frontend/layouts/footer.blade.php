@@ -3,26 +3,33 @@
       <div class="row">
         <div class="col-lg-3">
           <p class="mb-4"><img src="{{url('frontend/images/logo2.png')}}" alt="Image" class="img-fluid"></p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto iure.</p>  
-          <p><a href="#">Learn More</a></p>
+          {{-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto iure.</p>   --}}
+          <p>Explore more about Dhruvi's Creation and waterproofing</p>
+          <p><a href="{{ url('/about') }}">Learn More</a></p>
         </div>
         <div class="col-lg-3">
-          <h3 class="footer-heading"><span>Our Company</span></h3>
+          <h3 class="footer-heading"><span>Our Details</span></h3>
           <ul class="list-unstyled">
-              <li><a href="#">About</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Our Team</a></li>
+              <li><a href="{{ url('/about') }}">About</a></li>
+              <li><a href="{{ url('/services#services-page') }}">Services</a></li>
+              <li><a href="{{ url('/images') }}">Gallery</a></li>
+              {{-- <li><a href="#">Our Team</a></li>
               <li><a href="#">Careers</a></li>
-              <li><a href="#">Projects</a></li>
+              <li><a href="#">Projects</a></li> --}}
           </ul>
         </div>
         <div class="col-lg-3">
             <h3 class="footer-heading"><span>Our Services</span></h3>
             <ul class="list-unstyled">
-                <li><a href="#">Industrial</a></li>
-                <li><a href="#">Construction</a></li>
-                <li><a href="#">Remodeling</a></li>
+                <li><a href="{{ url('/basement') }}">For Basements and Tunnels</a></li>
+                <li><a href="{{ url('/toilet') }}">For Toilet and Terrace</a></li>
+                <li><a href="{{ url('/roof') }}">Roof Insulation Works</a></li>
+                <li><a href="{{ url('/structure') }}">Structural Rehabitation </a></li>
+                <li><a href="{{ url('/swimming') }}">Swimming Tank and Humidification</a></li>
+                <li><a href="{{ url('/industrial') }}">Industrial RCC Containers</a></li>
+                <li><a href="{{ url('/construction') }}">Other Special Treatment for Construction</a></li>
+                <li><a href="{{ url('/sealant') }}">Expansion Joint & Sealant Work</a></li>
+                <li><a href="{{ url('/epoxy') }}">Epoxy Grouting Work Services </a></li>
             </ul>
         </div>
         <div class="col-lg-3">
