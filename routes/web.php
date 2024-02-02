@@ -23,6 +23,7 @@ use App\Http\Controllers\Frontend\ToiletController;
 
 
 
+
 Route::get('/',[HomeController::class,'index']);
 Route::get('/about',[AboutController::class,'index']);
 Route::get('/services',[ServicesController::class,'index']);
