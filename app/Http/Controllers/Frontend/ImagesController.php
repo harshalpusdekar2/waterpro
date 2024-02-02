@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class ImagesController extends Controller
 {
     public function index(){
-        return view('frontend.services.images');
+        return view('frontend.gallery.images');
     }
 }
